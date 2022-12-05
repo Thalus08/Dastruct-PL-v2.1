@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label37.Text" xml:space="preserve">
+    <value>E : DEMACIAN STANDARD = ACTIVE: Jarvan IV throws a Demacian flag to the target location, dealing magic damage to enemies within the area. The flag then remains for 8 seconds, granting sight of its surroundings and providing an aura that grants bonus attack speed equal to Demacian Standard's passive to Jarvan IV and all nearby allied champions. Demacian Standard will cast at max range if cast beyond that</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>R : CATACLYSM = ACTIVE: Jarvan IV leaps with displacement immunity to the target enemy champion's location over 0.35 seconds, dealing physical damage to all nearby enemies upon arrival. Upon impact, he creates a circle of impassable terrain that initially pulls units inside it, though not rendering them airborne. The terrain lasts for 3.5 seconds and grants sight of the area. Cataclysm can be recast after 1 second while the terrain is active. RECAST: Jarvan IV destroys the terrain created by Cataclysm.</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>W : GOLDEN AEGIS = ACTIVE: Jarvan IV slows all nearby enemies for 2 seconds. Jarvan IV also grants himself a shield for 5 seconds, increased by 1.3% of his maximum health for each enemy champion hit by Golden Aegis.</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>PASSIVE: MARTIAL CADENCE = INNATE: Jarvan IV's basic attacks are empowered to deal additional physical damage equal to 8% of the target's current health, with a minimum threshold of 20 and capped at 400 against all targets.</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>E : GATLING GUN = ACTIVE: Corki sprays bullets in a cone toward his facing direction for 4 seconds, dealing equal parts physical and magic damage every 0.25 seconds to all enemies hit, and reducing the targets' armor and magic resistance with each tick, lasting for 2 seconds, refreshing on subsequent ticks, and stacking up to 8 times.</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>R : MISSILE BARRAGE = ACTIVE: Corki fires a missile in the target direction that explodes upon the first enemy hit, dealing magic damage to enemies within the area. Corki periodically stocks a Missile Barrage charge, up to a maximum of 7. He gains maximum charges upon respawning. Every third missile Corki fires is a Big One Big One, dealing 100% increased damage as well as gaining increased range and explosion radius.</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>W : VALKYRIE = ACTIVE: Corki dashes to the target location and drops bombs that leave up to 3 blazing patches along his path, depending on the distance traveled. Each patch lasts 2 seconds. Enemies within the patches are dealt magic damage every 0.25 seconds. Gatling Gun Gatling Gun can be cast during the dash. Valkyrie will cast at max range if cast beyond that. SPECIAL DELIVERY = ACTIVE: Corki dashes with displacement immunity to the target location, knocking aside all enemies in his path 500 units and leaving behind a trail of fire for 5 seconds, which grants sight of the area for its duration and for 3 seconds afterwards. Enemies hit by Corki's dash or within the trail are burned and slowed by 90% for 2 seconds, refreshing every 0.25 seconds while inside the area. The burn deals 7.5 − 25 (based on level) (+ 50% bonus AD) (+ 6% AP) magic damage every 0.25 seconds. Casting Special Delivery instantly resets Valkyrie's cooldown. Special Delivery will cast at max range if cast beyond that.</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Passive: HEXTECH MUNITIONS = INNATE - HEXTECH SHRAPNEL SHELLS: Corki's basic attacks are modified to deal 80% AD magic damage and 20% AD physical damage. INNATE - THE PACKAGE: After 10:00, The Package is delivered to both corners of the allied fountain, which can be selected by Corki to pick up after channeling for 1 second. Upon completion of the channel, Corki gains one cast of Special Delivery Special Delivery for 60 seconds, replacing Valkyrie Valkyrie for the duration. While holding the The Package, Corki gains 40% bonus movement speed out of combat and ghosting.</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Q : PHOSPHORUS BOMB = ACTIVE: Corki launches a bomb at the target location that explodes upon impact, dealing magic damage to enemies hit. The bomb also grants sight of the area for 6 seconds and reveals enemy champions hit for the same duration.</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>R : GRANDMASTER'S MIGHT = PASSIVE: Jax's basic attacks generate a stack of Grandmaster's Might on-hit for 2.5 seconds, refreshing on subsequent hits, and stacking up to 2 times. At 2 stacks, his next basic attack is empowered to consume them all to deal bonus magic damage. ACTIVE: Jax gains bonus armor and bonus magic resistance for 8 seconds.</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>E : COUNTER STRIKE = ACTIVE: Jax enters Evasion for 2 seconds: a defensive stance that causes him to dodge all incoming non- turret basic attacks and take 25% reduced damage from all area of effect abilities sourced from champions. Counter Strike can be recast after 1 second, and does so automatically after the duration. RECAST: Jax deals physical damage to nearby enemies, increased by 20% for each attack dodged, up to a 100% increase, and stuns them for 1 second.</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>W : EMPOWER = ACTIVE: Jax empowers his next basic attack or Leap Strike Leap Strike against an enemy within 10 seconds to deal bonus magic damage. If Empower is used on a basic attack, it will gain 50 bonus range. Empower resets Jax's basic attack timer.</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Q : LEAP STRIKE = ACTIVE: Jax dashes to the target unit's location. If the target is an enemy and they are in range upon arrival, Jax deals them physical damage. Jax can cast any of his abilities during the dash.</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>R : STRANGLETHORNS = ACTIVE: Zyra summons a monstrous thicket at the target location that deals magic damage to enemies hit as it expands. After 2 seconds, the thicket snaps upward to knock up enemies within for 1 second. Plants hit by the thicket become enraged, restoring 50% of their current health, increasing their maximum health by 50%, gaining 25% increased size and refreshing their duration while the thicket expands. Additionally, they attack in a flurry, launching two shots per attack, dealing 「 150% damage per flurry. 」</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>W : RAMPANT GROWTH = ACTIVE: Zyra plants a Seed at the target location that remains for 60 seconds and grants sight over the surrounding area, though decreasing in radius after 1 second. After 1.5 seconds, enemy champions can destroy the Seed by stepping on it, which reveals them for 2 seconds. Zyra periodically stocks a Seed charge, up to a maximum of 2. Killing an enemy generates 20% charge toward a Seed, increased to 100% for large enemies and whenever scoring an enemy champion takedown.</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Q : DEADLY SPINES = ACTIVE: Zyra sprouts thorny spines at the target location that appear after a 0.625-seconds delay, dealing magic damage to enemies hit. If Deadly Spine hits a Seed, it sprouts into a Thorn Spitter that remains for 8 seconds.</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>PASSIVE: RELENTLESS ASSAULT = INNATE: Jax's basic attacks generate a stack of Relentless Assault on-attack for 2.5 seconds, refreshing on subsequent attacks and stacking up to 8 times. Stacks expire by one every 0.25 seconds when the duration ends. RELENTLESS ASSAULT: For each stack, Jax gains 3.5% − 11% (based on level) bonus attack speed, up to a maximum of 28% − 88% (based on level).</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>PASSIVE: GARDEN OF THORNS = INNATE: Periodically, Zyra spawns one or two Seeds nearby that last for 30 seconds, granting sight over the surrounding area for 1 second. After 1 second, enemy champions can destroy Seeds by stepping on them. Zyra can only have a total of 8 Seeds planted at a time, preserving Seeds spawned by Rampant Growth Rampant Growth over Seeds spawned by Garden of Thorns.</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>R : EXPLOSIVE CASK = ACTIVE: Gragas hurls a cask that travels to the target location over 0.55 seconds, exploding on impact to deal magic damage to all enemies within the area and knock them back 900 units, though not through terrain, from the epicenter of the explosion, as well as granting sight of the area for 1 second.</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Q : BARREL ROLL = ACTIVE: Gragas rolls a cask to the target location, remaining there for 4 seconds, granting sight of the area, and fermenting over 2 seconds to increase its damage and slow effectiveness, up to a maximum of 150%. Barrel Roll can be recast at any time within its duration after the cask has fully travelled, and does so automatically after its duration ends. RECAST: Gragas detonates the cask, dealing magic damage to nearby enemies, reduced by 30% against minions, and slowing them for 2 seconds.</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>W : DRUNKEN RAGE = ACTIVE: Gragas channels for 0.75 seconds, drinking out of his brew, and gains damage reduction for 2.5 seconds. Upon completing the channel, Gragas empowers his next basic attack within 5 seconds to have an uncancellable windup, gain 50 bonus range and deal bonus magic damage to the target and nearby enemies, capped at 300 against monsters.</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>E : BODY SLAM = ACTIVE: Gragas charges in the target direction and stops upon colliding with an enemy, dealing magic damage to all nearby enemies, knocking them back, though not through terrain, and stunning them for 1 second. Body Slam's current cooldown is reduced by 3 seconds if Gragas hits an enemy.</value>
+  </data>
+</root>

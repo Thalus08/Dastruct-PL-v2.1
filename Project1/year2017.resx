@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label41.Text" xml:space="preserve">
+    <value>PASSIVE: LIVING VENGEANCE = INNATE: When Varus kills an enemy, he gains 10 / 15 / 20% (based on level) (+ 20% bonus attack speed) bonus attack speed for 5 / 7 / 9 / 11 (based on level) seconds, increased to 40% (+ 40% bonus attack speed) upon scoring an enemy champion takedown.</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>R: CHAIN OF CORRUPTION = ACTIVE: Varus unleashes a tendril of corruption in the target direction that infects the first enemy champion hit, dealing magic damage and rooting them for 2 seconds, during which they are revealed. Over the first 1.5 seconds, they are also inflicted with maximum stacks of Blight. Upon impact, the tendril roots into the ground from which it seeks out nearby enemy champions. If a target does not leave the area within 2 seconds, they subsequently become infected as well, taking the same damage and effects. A new tendril is then spread out from the infected target that is closest to a nearby uninfected enemy champion. The infection can spread repeatedly until there are no new targets.</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>E: HAIL OF ARROWS = ACTIVE: Varus fires a hail of arrows at the target location that land after 0.5 seconds, dealing physical damage to enemies hit. The area then becomes desecrated for 4 seconds, slowing enemies within and inflicting them with 25% Grievous Wounds.</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>W : BLIGHTED QUIVER = PASSIVE: Varus' basic attacks are empowered to deal bonus magic damage and apply a stack of Blight On-hit icon.png on-hit for 6 seconds, refreshing on subsequent applications and stacking up to 3 times. Varus' abilities consume all Blight stacks on enemies hit to apply the effect. BLIGHT: For each stack consumed, the target is dealt bonus magic damage. Against a champion or epic monster, this also reduces his basic abilities' current cooldowns by 12% of the total cooldown for each stack, up to 36% per target. This damage is capped at 360 against monsters. ACTIVE: Varus' next Piercing Arrow within 5.5 seconds is empowered to deal 6% − 14% (based on level) of the target's missing health bonus magic damage, increased by 0% − 50% (based on Piercing Arrow's channel time), for a maximum of 9% − 21% (based on level) of the target's missing health. This damage is capped at 360 against monsters. If Varus does not cast Piercing Arrow, Blighted Quiver can be recast after 1 second within the duration, and does so automatically afterwards or when he dies. Blighted Quiver can be cast during the first 0.25 seconds of Piercing Arrow's charge, and will be placed on full cooldown even if Piercing Arrow is not recast.</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>Q : PIERCING ARROW = ACTIVE: Varus charges while being slowed by 20% for up to 4 seconds to increase range and damage over the first 1.25 seconds of the channel. Piercing Arrow can be recast within the duration. If the charge completes without reactivation, Piercing Arrow is cancelled and refunds Mana icon.png 50% of the mana cost. RECAST: Varus fires a piercing arrow in the target direction that deals physical damage to enemies hit. The damage of the arrow as well as any detonated Blight stacks are increased by 0% − 50% (based on channel time), and the arrow's damage is reduced by 0% − 67% (based on enemies hit).</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>R : WILD GROWTH = ACTIVE: Lulu enlarges herself or the target allied champion, knocking up nearby enemies for 0.75 seconds. For the next 7 seconds, the target gains Health icon.png bonus health and 40% increased size and slows nearby enemies, which lingers for 0.25 seconds.</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>E : HELP, PIX! = ACTIVE: Lulu can cast Help, Pix! on herself or the target unit. ENEMY CAST: Lulu sends Pix Pix to the far side of the target enemy for 4 seconds, dealing magic damage and revealing them for the same duration. SELF / ALLY CAST: Lulu sends Pix Pix to the target ally for 6.25 seconds. If the target is a champion, they are granted a shield for 2.5 seconds.</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>W : WHIMSY = ACTIVE: Lulu can cast Whimsy on herself or the target champion. ENEMY CAST: Lulu launches a spell onto the target enemy champion that polymorphs them into a harmless critter for a duration, during which their base movement speed is reduced by 60, and disarming them for the same duration. SELF / ALLY CAST: Lulu instantly casts erratic magic upon the target allied champion or herself, granting the target bonus attack speed and 25% (+ 5% per 100 AP) bonus movement speed for the duration.</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>Q : GLITTERLANCE = ACTIVE: Lulu and Pix Pix each fire a magic bolt towards the target point, each one dealing magic damage to enemies hit, reduced to 70% against Minion icon.png minions, and slowing them by 80% decaying over 2 seconds. Enemies take 25% damage from a second bolt.</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>PASSIVE: PIX, FAERIE COMPANION = INNATE: Lulu is assisted by Pix, an untargetable faerie, who follows her around and fires a barrage of 3 bolts towards her target whenever she uses a basic attack on-attack. Each bolt deals 5 − 39 (based on level) (+ 5% AP) magic damage to the first enemy it collides with, for a total of 15 − 117 (based on level) (+ 15% AP) on hitting a single target with all three bolts. Casting Help, Pix! on an ally champion transfers Pix's help to them, causing him to fire the bolts dependent on their basic attacks. Pix snaps back to Lulu if she is too far away.</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>W : FERAL SCREAM = ACTIVE: Cho'Gath roars in a cone in the target direction, dealing magic damage to enemies hit. Enemy champions and Rift Scuttlers. Rift Scuttlers hit are also silenced for a duration.</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>R : FEAST = ACTIVE: Cho'Gath attempts to eat the target enemy, dealing them true damage. Against non-champions, the base damage is modified. If the target is killed, Cho'Gath gains a stack of Feast. Only 6 stacks can be gained from non-epic monsters or minions. Each stack of Feast grants Cho'Gath bonus health as well as bonus attack range and increased size, capping at 75 bonus attack range and 100% increased size.</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>E : VORPAL SPIKES = ACTIVE: Cho'Gath empowers its next 3 basic attacks within 6 seconds to gain 50 bonus range and launch a blast of spikes on-attack in the target's direction. Enemies struck are dealt magic damage and slowed by an amount that decays over 1.5 seconds. The damage based on the target's health ratio is capped at 60 against minions and monsters.</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Q : RUPTURE = ACTIVE: Cho'Gath ruptures the target location after a 0.627 seconds-second delay, granting sight of the area before dealing magic damage to enemies within and knocking them up for 1 second, and afterwards slowing them by 60% for 1.5 seconds.</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>R : GLACIAL PRISON = ACTIVE: Sejuani throws an ice bola in the target direction that stops upon hitting an enemy champion, dealing magic damage and stunning them for 1 second. If the bola travels over 400 units, it becomes empowered to detonate upon reaching maximum range or hitting an enemy champion, dealing increased damage and stunning for 1.5 seconds instead. For the same duration, a frost storm is created that slows enemies within by 30% and grants sight of the area in a smaller radius. Afterwards, the storm shatters to deal magic damage to enemies hit and slow them by 80% for 1 second, as well as revealing them and granting sight of the area for 0.5 seconds.</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>W : WINTER'S WRATH = ACTIVE: After 0.25 seconds into the cast time, Sejuani swings her flail in a cone in the target direction that deals physical damage to enemies hit and knocks back minions and monsters hit. After the cast time, Sejuani lashes out with her flail in a line in the same direction, dealing physical damage to enemies hit and slowing them by 75% for 0.25 seconds.</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>E : PERMAFROST = PASSIVE: Winter's Wrath and both Sejuani's and nearby allied melee champions' attacks on-hit apply stacks of Frost to enemy champions, medium or large monsters, and large minions for 5 seconds, refreshing on subsequent applications and stacking up to 4 times, though not applying if the target is Frozen. Enemies hit by Permafrost or Glacial Prison's bola have all of their Frost stacks consumed. Enemy champions cannot be affected by Frost for 10 seconds after having it consumed. ACTIVE: Sejuani hurls a trap at the visible enemy with 4 stacks of Frost closest to the cursor, which deals magic damage, knocks them down, and stuns them for 1 second.</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Q : ARCTIC ASSAULT = ACTIVE: Bristle dashes to the target location until he collides with an enemy champion, dealing magic damage to enemies he passes through and knocking them up for 0.5 seconds. Sejuani can cast any of her abilities during the dash. Arctic Assault will cast at max range if cast beyond that.</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>PASSIVE: FURY OF THE NORTH = INNATE - ICEBREAKER: Enemies stunned by Sejuani are marked Frozen for the disable's duration. Sejuani's next basic attack or ability against a Frozen enemy will consume the mark to deal bonus magic damage equal to 10% of their maximum health, capped at 300 against epic monsters. INNATE - FROST ARMOR: Sejuani gains Frost Armor, which lingers for 3 seconds after taking damage from enemy champions or monsters. She restores it after 12 − 6 (based on level) seconds without taking damage from them. FROST ARMOR: Sejuani gains slow immunity, cripple immunity, 10 (+ 50% bonus armor) bonus armor, and 10 (+ 50% bonus magic resistance) bonus magic resistance.</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>R : NETHER GRASP = ACTIVE: Malzahar tethers to the target enemy champion knocking them down. He then channels for up to 2.5 seconds, suppressing and revealing the target and dealing them magic damage every 0.25 seconds, revealing himself in the process. Malzahar will continue to channel as long as the tether is not broken, even if the suppression is removed. Additionally, a Null Zone is opened beneath the target's location at the time of cast that lasts 5 seconds, dealing magic damage every 0.5 seconds to enemies within, capped at 120 per tick against minions and monsters.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>W : VOID SWARM = PASSIVE: Malzahar generates a stack of Zz'Rot Swarm when he casts another ability, up to a maximum of 2. ACTIVE: Malzahar consumes all Zz'Rot Swarm stacks and, after a 0.5-second delay, summons a Voidling at the target location. Additional Voidlings are then summoned for each Zz'Rot Swarm stack consumed. Voidlings deal magic damage with their attacks, reduced by 50% against epic monsters and increased by 200% to enemy minions infected by Malefic Visions.</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>E : MALEFIC VISIONS = ACTIVE: Malzahar infects the target enemy's mind, dealing magic damage every 0.5 seconds over 4 seconds, which refreshes upon damaging them with Call of the Void or Nether Grasp. Malefic Visions executes minions below Health icon.png 15 − 45 (based on level) health. If the target dies while infected, they spread Malefic Visions onto the closest nearby enemy and Malzahar restores 2% of his maximum mana.</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Q : CALL OF THE VOID = ACTIVE: Malzahar opens two portals to the void centered at the target location, sight of the area in between. After 0.4 seconds, enemies between the portals are dealt magic damage and silenced for a duration.</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>PASSIVE: VOID SHIFT = INNATE: Periodically, Malzahar gains Void Shift until he takes non-minion damage or negates a crowd control effect, to which it then lingers for 0.25 seconds before expiring. VOID SHIFT: Malzahar gains crowd control immunity and 90% damage reduction. Void Shift's cooldown refreshes whenever Malzahar takes non-minion damage or is affected by a crowd control effect, and resets upon respawning.</value>
+  </data>
+</root>

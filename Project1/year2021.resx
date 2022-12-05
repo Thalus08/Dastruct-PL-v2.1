@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label24.Text" xml:space="preserve">
+    <value>R : THE QUICKNESS = ACTIVE: Rakan breaks into a captivating sprint for 4 seconds, gaining ghosting and 75% bonus movement speed for the duration. During this time, he deals magic damage to enemies he collides with and charms and slows them by 75% for a duration. This cannot affect the same enemy more than once. Colliding with an enemy champion extends The Quickness' duration by 0.25 seconds, which can occur once per champion. When Rakan collides with his first enemy champion, he gains an additional 75% bonus movement speed that decays after 0.5 seconds by 20% every 0.5 seconds, then by 15% after decaying by 60% over 1.5 seconds. During The Quickness, Rakan cannot basic attack enemy champions he did not collide with, unless the attack command was inputted before the ability was activated.</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>E : BATTLE DANCE = ACTIVE: Rakan grants a shield to the target allied champion for 3 seconds and then dashes to and around them. Battle Dance can be recast within 5 seconds at no additional cost. RECAST: Rakan mimics the first cast's effects.</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>W : GRAND ENTRANCE = ACTIVE: Rakan Dash.png dashes to the target location. After a 0.35-second delay upon arrival, he deals magic damage to nearby enemies and knocks them up for 1 second. Rakan will be knocked down by any immobilizing or polymorphing crowd control, excluding sleep(bug), during Grand Entrance. Grand Entrance will cast at max range if cast beyond that.</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>Q : GLEAMING QUILL = ACTIVE: Rakan slings an enchanted feather in the target direction that deals magic damage to the first enemy hit. If the target was an enemy champion or epic monster, a radius is marked around Rakan. After 3 seconds or if an allied champion enters the radius, Rakan heals himself and nearby allied champions for 30 − 115 (based on level) (+ 55% AP).</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>PASSIVE: FEY FEATHERS = INNATE: Periodically, Rakan grants himself a shield for 30 − 225 (based on level) (+ 95% AP) that lasts until broken. After being out of combat for 5 seconds, any leftover shield will be restored to maximum value. Rakan's basic attacks and ability hits reduce Fey Feathers' cooldown by 1 second for each enemy champion hit. INNATE - LOVER'S LEAP: If either Rakan or Xayah is channeling Recall, the other may move nearby and channel their own to join alongside them. Both reach base at the time of which the initiator's Recall completes.</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>R : CRESCENT GUARD = PASSIVE - CHALLENGE: The last enemy champion hit by Xin Zhao's basic attacks or Audacious Charge Audacious Charge is marked Challenged for 3 seconds. ACTIVE: Xin Zhao sweeps his spear around him, dealing physical damage to nearby enemies, capped at 600 against monsters, and knocking back all non-Challenged targets hit up-to 700 units over 0.75 seconds, as well as stunning them for the same duration. For the next 4 seconds, Xin Zhao is invulnerable against enemy champions far away from him.</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>W : WIND BECOMES LIGHTNING = ACTIVE: Xin Zhao slashes in an arc and, after the cast time, thrusts his spear in a line in the target direction. Each strike deals physical damage to enemies hit, modified to 50% − 100% (based on level) against minions. The thrust deals increased damage, further by 0% − 33.3% (based on critical strike chance), and slows enemies hit by 50% for 1.5 seconds. Enemy champions and monsters hit are also marked Xin Zhao Challenged for 3 seconds, during which they are revealed.</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>E : AUDACIOUS CHARGE = ACTIVE: Xin Zhao dashes to the target enemy's location, dealing magic damage to enemies near them and slowing them by 30% for 0.5 seconds. Audacious Charge's range is increased against Xin Zhao Challenged targets. Xin Zhao then gains bonus attack speed for 5 seconds.</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Q : THREE TALON STRIKE = ACTIVE: Xin Zhao empowers his next three basic attacks on-attack to each have an uncancellable windup, deal bonus physical damage and reduce his other abilities' current cooldowns by 1 second. Each attack refreshes the duration. The third attack knocks up the target for 0.75 seconds. Three Talon Strike's bonus damage is affected by critical strike modifiers. Three Talon Strike resets Xin Zhao's basic attack timer.</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>PASSIVE: DETERMINATION = INNATE: Xin Zhao's basic attacks and Wind Becomes Lightning Wind Becomes Lightning strikes generate a stack of Determination, stacking up to 3 times. The third stack consumes them all to deal 15 / 30 / 45 / 60% (based on level) AD bonus physical damage and heal Xin Zhao for 6 − 74 (based on level) (+ 10% AD) (+ 65% AP).</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>R : MOONLIGHT VIGIL = ACTIVE: Aphelios casts forth a lunar spotlight in the target direction that briefly grants of the area along its path and stops upon illuminating an enemy champion. Alune smites the area centered on the illuminated target, dealing 125 / 175 / 225 (based on level) (+ 20% bonus AD) (+ 100% AP) physical damage to enemy champions struck and locking-on to each target hit, as well as granting sight of the area for 2 seconds. After 0.3 seconds of the illumination, attacks based on Aphelios' current main weapon will launch from the sky against each locked-on target, dealing 100% AD physical damage and applying on-hit effects at 100% effectiveness. These attacks can critically strike for (20% + 35% 35%) AD bonus physical damage. There is no range limit for locked-on targets. CALIBRUM: Applies an empowered mark that deals 50 / 80 / 110 (based on level) bonus physical damage per mark consumed. SEVERUM: Heals Aphelios for 250 / 350 / 450 (based on level) if at least one enemy champion is hit. GRAVITUM: Increases the initial slow to 99% and empowers Binding Eclipse Binding Eclipse to root targets affected by the enhanced slow for 1.35 seconds. INFERNUM: Deals 50 / 100 / 150 (based on level) (+ 25% bonus AD) bonus physical damage on the initial blast. Attacks splash in a 400 radius instead of a cone, dealing「 90% of that damage. 」Enemy champions will take damage from overlapping areas. CRESCENDUM: Generates 5 additional spectral Chakrams that return to Aphelios from the first enemy champion hit, for a total of 6, on top of those from other targets hit.</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>W : ELECTRICAL SURGE = PASSIVE: Kennen's basic attacks on-attack generate a stack of Electrical Surge, stacking up to 4 times. At 4 stacks, his next basic attack is empowered to consume them all to deal bonus magic damage and apply a stack of Mark of the Storm Mark of the Storm. ACTIVE: Kennen sends out a surge of electricity that deals magic damage to all nearby enemies afflicted by Mark of the Storm Mark of the Storm or within Slicing Maelstrom Slicing Maelstrom.</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>R : SLICING MAELSTROM = ACTIVE: Kennen summons a storm around himself for 3 seconds, gaining bonus armor and bonus magic resistance for the duration. The storm strikes lightning bolts down on nearby enemies every 0.5 seconds, each one dealing magic damage. Slicing Maelstrom deals 10% increased damage against a target with each successive strike, up to a maximum of 150% damage with one strike.</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>E : LIGHTNING RUSH = ACTIVE: Kennen turns into lightning for 2 seconds, becoming unable to declare basic attacks but gaining ghosting and 100% bonus movement speed. He deals magic damage to enemies he passes through, halved against non-champions, and restores 40 energy upon damaging at least one enemy. Lightning Rush can be recast after 0.5 seconds, and does so automatically after the duration. RECAST: Kennen ends Lightning Rush to gain bonus attack speed and be allowed to exceed the attack speed cap for 4 seconds.</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>PASSIVE: THE HITMAN AND THE SEER = INNATE: Aphelios has access to an arsenal of 5 Moonstone Weapons, created by his sister Alune. He equips two weapons at any one time, one as his main weapon and one as his off-hand. Each weapon has a unique basic attack and passive effect. Aphelios begins the game with Calibrum as his main weapon and Severum in his off-hand, with Gravitum, Infernum, and Crescendum queued in reserve. The queue order can be rearranged based on weapon usage. INNATE - MOONLIGHT: Weapons spawn with 50 Moonlight for ammunition, which is consumed on basic attacks on-attack or to cast his abilities. Abilities that cause Aphelios to attack do not cost additional Moonlight on top of their ability cost. Once his main weapon is exhausted of Moonlight, it is moved to the end of the queue and Aphelios assembles his next available weapon over 1 second to equip it from his reserve, with its ability being placed on a 1.5-second cooldown before that time. Aphelios cannot cast Phase during the assembly. INNATE - WEAPON MASTER: Aphelios cannot improve his abilities with skill points. He starts the game with Phase and gains access to abilities at level 2 and Moonlight Vigil Moonlight Vigil at level 6, with the latter improving automatically at levels 11 and 16. Instead, Aphelios may spend his skill points to gain bonus attack damage, bonus attack speed or lethality.</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>PASSIVE: MARK OF THE STORM = INNATE: Kennen's abilities apply a stack of Mark of the Storm to enemies hit for 6 seconds, refreshing on subsequent applications, and stacking up to 3 times. The third stack against a target consumes them all to stun them for 1.25 seconds and restore 25 energy. The stun duration is reduced to 0.5 seconds if this occurs on the same target again within 6 seconds. Slicing Maelstrom Slicing Maelstrom can apply only up to 3 stacks on a target.</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>R : PORTAL JUMP = ACTIVE: Zoe blinks in the target direction and remains there for 0.75 seconds, during which she sets her movement speed to a static 0 and has unobstructed vision. Afterwards, she blinks back to her casting position. Portal Jump resets Zoe's basic attack timer. Zoe is unable to basic attack and cast her abilities and movement spells for 0.75 seconds after casting Portal Jump and for 0.5 seconds after blinking back.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>W : SPELL THIEF = PASSIVE - WHEEEEE: Whenever Zoe casts Spell Thief or a summoner spell, she gains bonus movement speed for a duration, and summons three bolts that orbit her for the next 10 seconds. If Zoe is not affected by complete crowd control, she shoots one bolt at a time at the nearest non-sleeping enemy in range, prioritizing her attack target, dealing magic damage with each bolt. PASSIVE: Whenever an enemy champion casts a summoner spell summoner spell or item active item active, they drop the corresponding Spell Shard Spell Shard onto the ground that grants sight over a 100-radius area and remains for 40 seconds. Enemy minions have a 10% chance to spawn with a random Spell Shard that drops and remains for 20 seconds if Zoe kills them. Allied champions that kill them will cause the orb to drop only if Zoe is nearby. Zoe can collect a Spell Shard for 60 seconds, and replace it by moving directly onto another Spell Shard. ACTIVE: Zoe mimics the active of the collected Spell Shard.</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>E : SLEEPY TROUBLE BUBBLE = ACTIVE: Zoe kicks a bubble in the target direction that bursts upon the first enemy hit, otherwise lingering at maximum range over 1 second, then becoming a trap for 5 seconds that bursts upon enemy contact. The bubble can move through terrain only once, but travels the entire distance as bonus range, and will fall short if it would enter terrain again. The burst deals magic damage and inflicts drowsy for 1.4 seconds, which gradually slows them until they fall asleep for 2.25 seconds. The next instance of non-persistent damage that the sleeping target takes from champions, large monsters or structures consumes the debuff to deal bonus true damage equal to the post-mitigation damage dealt, capped at Sleepy Trouble Bubble's damage. The bonus damage is dealt before the triggering damage.</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Q : PADDLE STAR! = ACTIVE: Zoe shoots a star in the target direction that explodes upon hitting an enemy, dealing magic damage to nearby enemies hit, reduced to 80% for enemies hit beyond the first. The total damage is increased by 0% − 150% (based on distance traveled). The star lingers at maximum range for 1 second, during which Paddle Star can be recast after 0.25 seconds in the duration. RECAST: Zoe redirects the star in the target path, empowering it with increased speed and radius, and resetting its damage modifier on cast. The redirected star can travel until it reaches 800-units outbound from Zoe.</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>PASSIVE: MORE SPARKLES! = INNATE: After casting an ability, Zoe empowers her next basic attack or Spell Thief Spell Thief bolt within 5 seconds to become non-projectile and deal 16 − 130 (based on level) (+ 20% AP) bonus magic damage.</value>
+  </data>
+</root>

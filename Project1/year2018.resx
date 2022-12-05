@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label41.Text" xml:space="preserve">
+    <value>PASSIVE: SECOND SKIN = INNATE - LIVING WEAPON: Kai'Sa can evolve each of her basic abilities by gaining a set amount of permanent stats from items and stat growth, granting them additional effects. Evolving an ability causes her to enter a 2-second cast time. The upgrade is lost if the stat requirement is no longer met. INNATE - PLASMA: Kai'Sa's basic attacks on-hit and Void Seeker apply stacks of Plasma to enemies for 4 seconds, refreshing on subsequent applications and stacking up to 5 times. Basic attacks each apply 1 stack and Void Seeker applies 2 stacks, increased to 3 if it is evolved. Her and nearby allies' immobilizing effects and polymorphs against enemy champions will also apply a stack of Plasma. INNATE - CAUSTIC WOUNDS: Plasma stacks applied by Kai'Sa's basic attacks or Void Seeker deal 5 − 23 (based on level) (+ 1 − 12 (based on level) per Plasma stack before application) (+ 15% − 25% (based on Plasma stacks before application) AP) bonus magic damage. The fifth stack against a target consumes them all to deal additional bonus magic damage equal to 15% (+ 6% per 100 AP) of the target's missing health, capped at 400 against monsters.</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Q : ICATHIAN RAIN = ACTIVE: Kai'Sa releases a swarm of 6 missiles that evenly distributes among nearby visible enemies, each one hitting their target after 0.4 seconds to deal physical damage. Minions below 35% health take double damage. EVOLUTION: Requires「 Attack damage icon.png 100 − 66 (based on level) attack damage from items 」to upgrade – Icathian Rain instead fires 12 missiles.</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>E : BATTLE DANCE = ACTIVE: Rakan grants a shield to the target allied champion for 3 seconds and then dashes to and around them. Battle Dance can be recast within 5 seconds at no additional cost. RECAST: Rakan mimics the first cast's effects.</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>W : GRAND ENTRANCE = ACTIVE: Rakan Dash.png dashes to the target location. After a 0.35-second delay upon arrival, he deals magic damage to nearby enemies and knocks them up for 1 second. Rakan will be knocked down by any immobilizing or polymorphing crowd control, excluding sleep(bug), during Grand Entrance. Grand Entrance will cast at max range if cast beyond that.</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>Q : GLEAMING QUILL = ACTIVE: Rakan slings an enchanted feather in the target direction that deals magic damage to the first enemy hit. If the target was an enemy champion or epic monster, a radius is marked around Rakan. After 3 seconds or if an allied champion enters the radius, Rakan heals himself and nearby allied champions for 30 − 115 (based on level) (+ 55% AP).</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>PASSIVE: FEY FEATHERS = INNATE: Periodically, Rakan grants himself a shield for 30 − 225 (based on level) (+ 95% AP) that lasts until broken. After being out of combat for 5 seconds, any leftover shield will be restored to maximum value. Rakan's basic attacks and ability hits reduce Fey Feathers' cooldown by 1 second for each enemy champion hit. INNATE - LOVER'S LEAP: If either Rakan or Xayah is channeling Recall, the other may move nearby and channel their own to join alongside them. Both reach base at the time of which the initiator's Recall completes.</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>PASSIVE: DEATHBRINGER STANCE = INNATE: Periodically, Aatrox empowers his next basic attack to gain 50 bonus range and deal bonus physical damage equal to 5% − 12% (based on level) of the target's maximum health, capped at 100 against monsters. Aatrox Heal power icon.png heals for 80% of the post-mitigation bonus damage dealt, reduced to 25% against minions. Whenever Aatrox hits at least one enemy champion or large monster with a basic attack on-hit or an ability, the cooldown of Deathbringer Stance is reduced by 2 seconds, modified to 4 if he hits with the Sweetspot of The Darkin Blade.</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>R : THE HEXTECH ULTIMATUM = ACTIVE: Camille becomes untargetable and leaps with displacement immunity towards the target enemy champion over 0.5 seconds, revealing them for the duration and disrupting their ongoing channels. Upon landing on the target, she becomes targetable again and creates a hexagonal zone around her current location for a duration, knocking away all other nearby enemies on impact, though not through terrain. The target cannot escape the zone through any means. While within the zone, Camille's basic attacks deal bonus magic damage.</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>W : TACTICAL SWEEP = ACTIVE: Camille sweeps her leg in a cone in the target direction over 1.1 seconds, during which she is ghosted and unable to declare basic attacks. Afterwards, she deals physical damage to all enemies within. Enemies hit by the outer half of the cone take additional physical damage, capped at 300 damage against monsters, and are slowed by 80% decaying over 2 seconds. Camille is healed for 100% of this additional damage post-mitigation against enemy champions in the outer half.</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>E : HOOKSHOT = ACTIVE: Camille fires a grapple in the target direction. If the grapple collides with terrain, Camille will dash toward and attach to the terrain for 0.75 seconds, during which she gains the ability to cast Wall Dive. Camille will be knocked down by any immobilizing or polymorphing crowd control, excluding sleep(bug), during the dash. Other abilities can be cast during the ability. Casting The Hextech Ultimatum will cause the grapple to disappear if it is in flight. Camille is able to cast Hookshot during her basic attack animation. ACTIVE: Camille dashes in the target direction, dealing physical damage to enemies near the landing location. Wall Dive's range is doubled towards enemy champions within 1400 units. Camille grants ghosting to non-champions she passes through for 4 seconds. Camille stops prematurely upon colliding with an enemy champion, knocking back all nearby enemy champions, though not through terrain, as well as stunning them for 0.75 seconds, while also gaining bonus attack speed for 5 seconds.</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Q : PRECISION PROTOCOL = ACTIVE: Camille empowers her next basic attack within 4 seconds to have an uncancellable windup, gain 50 bonus range, deal bonus physical damage and grant her bonus movement speed for 1 second. After 0.25 seconds, Precision Protocol can then be recast within the next 3.5 seconds at no additional cost. RECAST: Camille mimics the first cast's effects. If Precision Protocol is recast after 1.5 seconds of the first attack, then the bonus damage is doubled, and 40% − 100% (based on level) of the attack's total damage will be dealt as true damage.</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>PASSIVE: ADAPTIVE DEFENSES = INNATE: Periodically, Camille's next basic attack against an enemy champion is enhanced to grant her a shield equal to 20% of her maximum health for 2 seconds from either exclusively physical damage or magic damage, based on which type the target has previously dealt most of against champions as well as on Camille's current armor and magic resistance.</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>R : HERO'S ENTRANCE = ACTIVE: Galio prepares to make an entrance, channeling for 2.75 seconds and designating the target allied champion's location at the time of cast as his landing spot. Additionally, he resets Shield of Durand's Shield of Durand's passive shield for himself and grants it to all allied champions within the area for 5 seconds. After channeling for 1.25 seconds, he gains crowd control immunity for the remaining duration, becomes untargetable, and leaps into the air for 0.85 seconds before dashing to his destination over 0.25 seconds. Afterwards, he lands and becomes targetable again, dealing magic damage to all nearby enemies upon impact, knocking them back 100 units over 0.75 seconds, and remaining in place for 0.4 seconds.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>W : SHIELD OF DURAND = PASSIVE: Galio gains Anti-Magic Bulwark, and restores it after 12 seconds without taking damage. ANTI-MAGIC BULWARK: Gain a shield that absorbs magic damage. ACTIVE: Galio charges for up to 3 seconds, slowing himself by 15%, and gaining magic damage reduction and half of that amount as physical damage reduction; charging increases Shield of Durand's radius, damage and taunt duration over the first 2 seconds of the channel. RECAST: Galio refreshes the damage reduction for 2 seconds and deals magic damage to nearby enemy champions, increased by 0% − 200% (based on channel time), as well as taunts them for 0.5 − 1.5 (based on channel time) seconds, setting their movement speed to a static 60 for the same duration.</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>E : JUSTICE PUNCH = ACTIVE: During the cast time, Galio steps backwards in the opposite direction. He then dashes to the target location until he hits an enemy champion or terrain. Galio deals magic damage to enemies he passes through, reduced by 50% against non-champions, and knocks them up for 0.75 seconds as well as reveals them for the same duration.</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Q : WINDS OF WAR = ACTIVE: Galio creates two windblasts 250 units to either side of him that arc out before converging to the target location, dealing magic damage to all enemies they pass through. When the blasts meet, the gusts form a tornado that persists for 2 seconds, slowly moving forward and dealing magic damage every 0.5 seconds to enemies within the area. The damage based on the target's health ratio is capped at 150 against monsters.</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>PASSIVE: COLOSSAL SMASH = INNATE: Periodically, Galio's next basic attack is empowered to have an uncancellable windup and deal 15 − 200 (based on level) (+ 100% AD) (+ 50% AP) (+ 60% bonus magic resistance) modified magic damage to the target and all enemies near them. Colossal Smash can critically strike for (75% + 35% 35%) AD bonus magic damage to all targets hit.</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>R : THE QUICKNESS = ACTIVE: Rakan breaks into a captivating sprint for 4 seconds, gaining ghosting and 75% bonus movement speed for the duration. During this time, he deals magic damage to enemies he collides with and charms and slows them by 75% for a duration. This cannot affect the same enemy more than once. Colliding with an enemy champion extends The Quickness' duration by 0.25 seconds, which can occur once per champion. When Rakan collides with his first enemy champion, he gains an additional 75% bonus movement speed that decays after 0.5 seconds by 20% every 0.5 seconds, then by 15% after decaying by 60% over 1.5 seconds. During The Quickness, Rakan cannot basic attack enemy champions he did not collide with, unless the attack command was inputted before the ability was activated.</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>W : VOID SEEKER = ACTIVE: Kai'Sa fires a void bolt in the target direction that briefly grants sight around its trajectory as it travels, deals magic damage to the first enemy hit, applies 2 Plasma, and reveals them for 4 seconds. EVOLUTION: Requires Ability power icon.png 100 ability power from items to upgrade – Void Seeker applies 3 Plasma instead and refunds 77% of its cooldown it hits an enemy champion.</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>R : KILLER INSTINCT = ACTIVE: Kai'Sa grants herself a shield for 2 seconds and dashes to a target location near a visible enemy champion that was affected by Plasma within the last 4 seconds. The shield's duration is refreshed when the dash ends.</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>E : SUPERCHARGE = ACTIVE: Kai'Sa charges up over the cast time, during which she is still allowed to move, becomes ghosted, and gains bonus movement speed, with the effectiveness increased by 0% − 100% (based on bonus attack speed). After completing the charge, she gains bonus attack speed and reduces her basic attack windup percentage by 6.44% for 4 seconds. EVOLUTION: Requires「100% − 70% (based on level) attack speed from items 」to upgrade – Supercharge grants invisibility at the start of the cast time for 0.5 seconds</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>R : WORLD ENDER = ACTIVE: Aatrox unleashes his true form for 10 seconds, fearing nearby enemy minions and monsters for 3 seconds, during which they are gradually slowed by up to 99% over the duration. He also gains ghosting and bonus movement speed that decays by 10% of the current bonus every 0.25 seconds, lasting until World Ender has ended. Whenever Aatrox scores a champion takedown, he extends the duration by 5 seconds and becomes unleashed again. During World Ender, Aatrox gains bonus attack damage and 5% increased size, and receives increased self-healing from all sources.</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>E : UMBRAL DASH = PASSIVE: Aatrox heals for a portion of the persistent post-mitigation damage he deals against enemy champions, increased during World Ender. ACTIVE: Aatrox dashes in the target direction. Umbral Dash resets Aatrox's basic attack timer and can be cast during his other abilities without cancelling them and vice versa.</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>W : INFERNAL CHAINS = ACTIVE: Aatrox sends a chain in the target direction that deals physical damage to the first enemy hit, doubled against minions, and slowing them by 25% for 1.5 seconds. If this hits an enemy champion or large monster, a tether is formed between the target and the ground beneath them for 1.5 seconds, during which they are revealed. If the tether is not broken by the end of its duration, the target is dealt the same physical damage again and pulled to the center of the area.</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Q : THE DARKIN BLADE = ACTIVE: Aatrox can activate The Darkin Blade three times before the ability goes on cooldown, with a 1 second static cooldown between casts. If Aatrox does not recast the ability within 4 seconds of the previous cast, it goes on cooldown. Aatrox performs a strike with his greatsword for each of the three casts, dealing physical damage to enemies hit within an area. Enemies hit within a Sweetspot of the area take 60% bonus damage and also knocked up for 0.25 seconds. Each subsequent cast increases The Darkin Blade's damage by 25%. FIRST CAST: Aatrox's first strike affects a 625 × 180-unit rectangular area in the target direction, with him centered on the back line and the Sweetspot at the farthest edge. SECOND CAST: Aatrox's second strike affects a trapezoidal area in the target direction, with the Sweetspot at the farthest edge. The hitbox begins 100-units behind Aatrox and extends 475-units in front of him, measuring between 300 and 500-units wide from behind to in front. THIRD CAST: Aatrox's third strike affects a 300-radius circular area centered on a target location that is 200 units in front of him, with a 180-radius Sweetspot within.</value>
+  </data>
+</root>

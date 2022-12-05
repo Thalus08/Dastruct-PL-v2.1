@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label41.Text" xml:space="preserve">
+    <value>PASSIVE: FROST SHOT = INNATE - FROST SHOT: Ashe's basic attacks and ability hits apply Frost to enemies, which Slow slows them by 20% − 30% (based on level) for 2 seconds. Basic attacks against enemies with Frost are modified to deal 110% (+ (75% + 35% 35%) of critical strike chance) damage. INNATE - CRITICAL SLOW: Ashe's critical strikes do not deal any additional damage, instead they double Frost's slow strength to 40% − 60% (based on level), decaying over 1 second to its normal strength.</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>R : ENCHANTED CRYSTAL ARROW = ACTIVE: Ashe fires a massive arrow of ice in the target direction, granting sight of the area it flies through each for 1 second. The arrow shatters upon hitting an enemy champion, dealing them magic damage, Stun stunning them for 1 − 3.5 (based on distance traveled) seconds, and granting sight of the area around them for 1 second.</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>E : HAWKSHOT = ACTIVE: Ashe sends a hawk spirit toward the target location, granting sight of the area along its path「 repeatedly for 0.5 seconds after every 100 units traveled 」and at its destination for 5 seconds.</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>Q : RANGER'S FOCUS = PASSIVE: While Ranger's Focus is inactive, Ashe's basic attacks on-attack generate a stack of Focus for 4 seconds, which refreshes on subsequent attacks and stacks up to 4 times. Stacks expire by one every 1 second. ACTIVE: For 4 seconds, Ashe gains bonus attack speed and empowers her basic attacks to fire a flurry of five arrows. Each arrow deals modified physical damage that benefits from Frost Shot and life steal. Flurries trigger on-hit effects only once.</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>R : GLACIAL FISSURE = ACTIVE: Braum leaps into the air and slams his shield into the ground, creating a fissure that travels forth in the target direction, dealing magic damage to enemies within its path as well as those around Braum. The first target hit is knocked up for at least 0.3 seconds, increased if they are further away from Braum. All other enemies hit are knocked up for 0.3 seconds. A field of ice is created along the fissure's path, lasting for 4 seconds and slowing enemies within the area every 0.25 seconds. The field disappears after the duration ends in the same order and speed it was created with.</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>E : UNBREAKABLE = ACTIVE: Braum sets his shield in the target direction for a few seconds, creating a barrier that intercepts all incoming hostile projectiles and reduces the damage Braum takes through it. The first instance of damage dealt by a champion from this direction is reduced by 100%. Unbreakable does not affect turrets. While his shield is raised, Braum also gains 10% bonus movement speed and ghosting.</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>W : STAND BEHIND ME = ACTIVE: Braum dashes to put himself between the target ally and the closest visible enemy champion within 1500 units, and upon arrival grants himself and the ally bonus armor and bonus magic resistance for 3 seconds. Stand Behind Me can be self cast to instantly grant Braum the bonus resistances. Unbreakable can be cast during the dash.</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>PASSIVE: CONCUSSIVE BLOWS = INNATE: Braum's basic attacks and Winter's Bite each apply a stack of Concussive Blows to their target for 4 seconds, refreshing on subsequent applications and stacking up to 4 times. Once the first stack has been applied, any allied champion's basic attack applies an additional stack to the target on-hit. The fourth stack against a target consumes them all to deal 26 − 196 (based on level) magic damage and stun them for 1.25 − 1.75 (based on level) seconds. This effect cannot apply to the same target more than once every few seconds. During this immunity period, affected targets take「 20% of the trigger damage as bonus magic damage 」from Braum's basic attacks.</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>W : FROZEN DOMAIN = ACTIVE: Trundle coats the target location in ice for 8 seconds. While he is within the area, he gains bonus attack speed, bonus movement speed, and 25% increased healing from all sources.</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>R : SUBJUGATE = ACTIVE: Trundle drains the life force out of the target enemy champion, dealing magic damage and  healing himself for the same amount. He also steals 40% of their current armor and magic resistance, and increases in size by 18% while reducing the target's size by 9.9%.Half of the total damage and stealing are applied instantly, and the other half, as well as the size modifiers, are applied every second over the next 4 seconds, even if the target has died. The armor and magic resistance will remain stolen for 4 seconds after the drain has ended.</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>E : PILLAR OF ICE = ACTIVE: Trundle erects a pillar of ice at the target location for 6 seconds, which knocks back units hit to 225 units from its center. The pillar acts as terrain and slows nearby enemies.</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Q : CHOMP = ACTIVE: Trundle empowers his next basic attack within 7 seconds to have an uncancellable windup, deal bonus physical damage and slow the target by 75% for 0.1 seconds. After using the empowered attack, Trundle gains bonus attack damage for 5 seconds and reduces the target's attack damage by half that amount for the same duration Chomp resets Trundle's basic attack timer.</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>R : DRAGON'S RAGE = ACTIVE: Lee Sin roots the target enemy champion over the cast time, then roundhouse kicks them to deal physical damage and knock them back up to 800 units over 0.8 seconds, rendering them airborne for 1 second. Enemies that collide with the displaced enemy while it is airborne take the same damage plus bonus physical damage and are Airborne icon.png knocked up for 1 second.</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>W : SAFEGUARD / IRON WILL = ACTIVE: Lee Sin dashes to the target allied unit's location. If the ally is a champion upon arrival, both they and Lee Sin gain a shield for 2 seconds and Safeguard's cooldown is halved. Lee Sin can self-cast Safeguard to shield himself. After Safeguard is cast, Lee Sin can cast Iron Will Iron Will within the next 3 seconds. ACTIVE: Lee Sin gains life steal and spell vamp for 4 seconds.</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>E : TEMPEST / CRIPPLE = ACTIVE: Lee Sin smashes the ground beneath him, dealing magic damage to nearby enemies, marking them for 4 seconds and, if they are not invisible when struck, revealing them for the same duration. If Tempest hits an enemy, Lee Sin can cast Cripple Cripple within the next 3 seconds after a 0.1-second delay. ACTIVE: Lee Sin sends a wave to nearby enemies marked by Tempest, which slows them for 4 seconds, decaying over the duration.</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Q : SONIC WAVE / RESONATING STRIKE = ACTIVE: Lee Sin fires a sonic blast in the target direction that deals physical damage to the first enemy hit and marks them for 3 seconds, during which they are revealed. While the target is marked, Lee Sin can cast Resonating Strike. ACTIVE: Lee Sin dashes to the nearby enemy marked by  Sonic Wave. Upon arrival, he consumes the mark and deals physical damage, increased by 0% − 100% (based on target's missing health). Iron Will and Cripple can be cast during the dash.</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>PASSIVE: FLURRY = INNATE: After casting an ability, Lee Sin's next 2 basic attacks within 3 seconds gain 40% bonus attack speed and restore energy. The first attack restores 20 / 30 / 40 (based on level) energy and the second attack restores「 half of that amount. 」</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>R : CHAOS STORM = ACTIVE: Viktor conjures an arcane singularity at the target location, dealing magic damage to enemies within the area and disrupting their channeled abilities. The singularity then remains active for 6.5 seconds, dealing magic damage to enemies within it every second and granting sight of the area. The singularity targets the nearest champion hit by its initial damage and will follow them, moving faster based on its proximity to Viktor. Chaos Storm can be recast at any time while the singularity is active. RECAST: Viktor directs the singularity to the target location or enemy champion. AUGMENT: PERFECT STORM: The singularity moves 25% faster.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>W : GRAVITY FIELD = ACTIVE: Viktor deploys a gravity field at the target location for 4 seconds. After a 0.75-second delay, it activates to slow enemies within, persisting for 0.25 seconds after leaving the area or generating 3 stacks. The field applies a stack to enemies within every 0.5 seconds, stacking up to 3 times. The third stack consumes them all to knock down and S stun the target for 1.5 seconds. The target then becomes immune to Gravity Field's effects, occurring once per cast. AUGMENT: MAGNETIZE: Viktor's other abilities, excluding Chaos Storm's persistent damage, slow enemies hit by 20% for 1 second.</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>E : DEATH RAY = ACTIVE: Viktor fires an energy beam along the target path that deals magic damage to enemies hit and briefly grants sight of the area. AUGMENT: AFTERSHOCK: The path explodes along the beam's wake after 1 second, dealing magic damage to enemies hit.</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Q : SIPHON POWER = ACTIVE: Viktor throws a device at the target enemy that deals magic damage. He also grants himself a shield for 27 − 105 (based on level) (+ 18% AP) for 2.5 seconds and gains Discharge for 3.5 seconds. DISCHARGE: Viktor's next basic attack is empowered to become non-projectile and deal modified magic damage. AUGMENT: TURBOCHARGE: After the device hits, Viktor gains 30% bonus movement speed for 2.5 seconds and the shield's strength is increased by 60%, up to 48 − 184 (based on level) (+ 32% AP).</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>PASSIVE: GLORIOUS EVOLUTION = INNATE: Viktor can augment each of his basic abilities at the cost of 100 Hex Fragments, which he gains from killing enemies: Minions and monsters generate 1 Hex Fragment; Siege minions, super minions, and epic monsters generate 5 Hex Fragments; Enemy champion takedowns generate 25 Hex Fragments. Chaos Storm becomes augmented once all of Viktor's basic abilities have been augmented.</value>
+  </data>
+</root>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label36.Text" xml:space="preserve">
+    <value>E : TRAMPLE = ACTIVE: Alistar tramples the ground around him every 0.5 seconds over 5 seconds, becoming Ghost.png ghosted and dealing magic damage to nearby enemies. Each time this damages at least one enemy champion, he generates a stack of Trample that lasts for the remaining duration, stacking up to 5 times. At 5 stacks, Alistar's next basic attack against a champion within 6 seconds is empowered to deal 20 − 275 (based on level) bonus magic damage and stun the target for 1 second. This will end Trample prematurely.</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>W : HEADBUTT = ACTIVE: Alistar Dash.png dashes to the target enemy's location. If they are within 400 units upon arrival, he deals them magic damage and knocks them back 700 units over 0.5 seconds while also stunning them for 0.75 seconds.</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>PASSIVE: TRIUMPHANT ROAR = INNATE: Alistar generates a stack of Triumph for each enemy Champion icon.png champion he Stun icon.png stuns or Airborne icon.png displaces with his abilities, and each time a nearby enemy Minion icon.png minion or non-epic Monster icon.png monster dies. He generates 7 stacks if a nearby enemy champion or epic monster dies. At 7 stacks, Alistar consumes them all to Heal power icon.png heal himself for 23 − 142 (based on level) and nearby allied champions for「 double the amount. 」</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>Q : BOOMERANG BLADE = ACTIVE: Sivir hurls her crossblade in the target direction, dealing physical damage to enemies within its path, increased by 0% − 50% (based on critical strike chance). Boomerang Blade's damage is reduced by 0% − 60% (based on non-champions hit). Upon reaching maximum range, the crossblade returns to her, resetting the damage modifier and dealing the same damage to enemies on its way back.</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>W : RICOCHET = ACTIVE: Sivir empowers her crossblade for the next 4 seconds, gaining bonus attack speed and causing her basic attacks to bounce to additional surrounding enemies, dealing them physical damage. If the triggering attack critically strikes, the bounces will do so as well. Ricochet deals 65% damage against minions and executes them if they would be left below 15 health. ounces occur only up to 8 times and can target each enemy up to one additional time per empowered attack. They prioritize the nearest new target, then the nearest target if no new targets are available. Ricochet resets Sivir's basic attack timer. The target does not have to be visible to be bounced to.</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>R : ON THE HUNT = ACTIVE: Sivir gains On the Hunt for a duration and grants it to nearby allied champions for the remaining duration. ON THE HUNT: Gain bonus movement speed. While active, Sivir's basic attacks on-attack reduce her basic abilities' current cooldowns by 0.5 seconds each. On the Hunt's duration is refreshed whenever Sivir scores a takedown against an enemy champion within 3 seconds of damaging them</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>PASSIVE: FLEET OF FOOT = INNATE: Sivir's basic attacks and ability hits against enemy champions grant her 55 − 75 (based on level) bonus movement speed decaying over 1.5 seconds, refreshing on subsequent hits.</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>W : HYPER / WALLOP = PASSIVE: Gnar's basic attacks on-hit and ability hits apply a stack of Hyper to enemies for 3.5 seconds, refreshing on subsequent applications and stacking up to 3 times. The third stack against a target consumes them all to deal bonus magic damage, capped at 300 against monsters, and grant Gnar 20 / 40 / 60 / 80% (based on GNAR!'s rank) bonus movement speed that decays over 3 seconds. ACTIVE: Gnar slams his arm down in the target direction, dealing physical damage to all enemies struck within the area and stunning them for 1.25 seconds.</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>R : GNAR! = Mega Gnar - ACTIVE: Gnar thrusts in the target direction, knocking away nearby enemies up to 590 units in that direction, though not through terrain, and afterwards dealing them physical damage, as well as slowing them by 45% after a 0.4-second delay for a duration. Enemies that collide with terrain take 50% increased damage instantly and are stunned instead of Slow slowed.</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>E : HOP / CRUNCH = ACTIVE: Gnar leaps to the target location, then gains bonus attack speed for 6 seconds. If Gnar lands on a unit he will bounce 500 units further in the same direction. Landing on an enemy deals them physical damage and slows them by 80% for 0.5 seconds. Gnar will not bounce if he is  immobilized, excluding from Sleep sleep(bug), during the first leap. ACTIVE: Gnar leaps to the target location and deals physical damage to nearby enemies upon impact. After a 0.25-second delay, additional enemies in a larger radius also take the same damage. If Crunch is used to transform, Gnar will still be able to bounce as per Hop. Crunch's area of effect occurs in both areas, though enemies can only be damaged once. Enemies Gnar lands directly on top of are affected by Hop's slow.</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Q : BOOMERANG THROW / BOULDER TOSS = ACTIVE: Gnar throws a boomerang in a line in the target direction that deals physical damage to enemies in its path and Slow icon.png slows them for 2 seconds. After reaching its maximum range or hitting an enemy, the boomerang flies back toward Gnar based on his current movement, dealing 50% damage to subsequent targets. Catching the boomerang while it is returning back refunds 40% of the ability's Cooldown total cooldown. ACTIVE: Gnar throws a boulder in the target direction that stops upon hitting an enemy, dealing physical damage to nearby enemies upon impact and  slowing them for 2 seconds. The boulder then remains on the ground for 6 seconds. After 0.3 seconds, Gnar can pick up the boulder by moving within 90 units of it, refunding 70% of the ability's total cooldown.</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>PASSIVE: RAGE GENE = INNATE - RAGE GENE: Mini Gnar Mini Gnar generates 4 / 7 / 11 (based on level) Rage Rage over 2 seconds upon dealing or receiving damage. Against non-champions, basic attacks and Boomerang Throw instantly generate「 0.5 / 0.875 / 1.375 (based on level) Rage. 」 Against champions, Boomerang Throw instantly generates「 1 / 1.75 / 2.75 (based on level) Rage, 」and basic attacks instantly generate「 2 / 3.5 / 5.5 (based on level). 」Boomerang Throw can only generate Rage once per cast, and grants Rage based on the first enemy hit. Gnar's Rage decays after being out of combat for 13 seconds. At maximum Rage, Gnar's abilities are switched to Mega Gnar's Mega Gnar's abilities for 4 seconds. Casting one of Mega Gnar's abilities will cause him to transform into Mega Gnar Mega Gnar, else he will transform automatically after the 4 seconds have elapsed. Gnar's Mega form lasts for 15 seconds, with his Rage bar depleting as an indication of remaining time. Rage cannot be generated while in this form. Afterwards, Gnar returns to Mini Gnar, retaining his current percentage health and becoming too tired to generate Rage for 15 seconds. Gnar gains different stat bonuses based on whether he is in Mini or Mega form. Both of Gnar's forms share their ability cooldowns</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>R : SPIDER FORM = PASSIVE: Spider Queen's Spider Queen's bonuses are increased. TOGGLE: Elise switches between her HUMAN FORM and SPIDER FORM. SPIDER FORM: Elise transforms into a spider, gaining 25 bonus movement speed, melee basic attacks with 125 range, and access to her arachnid abilities. Additionally, Elise unleashes all stored Spiderlings Spiderlings. HUMAN FORM: Elise transforms into a human, gaining ranged basic attacks, and access to her human abilities. Additionally, Elise stores all unleashed Spiderlings.</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>W : VOLATILE SPIDERLING / SKITTERING FRENZY = ACTIVE: Elise summons a venom-gorged spider for 3 seconds, which is untargetable and crawls to the target location, navigating its path upon encountering terrain. The spider explodes upon contact with an enemy or at the end of its lifespan, dealing magic damage to nearby enemies. If the spider does not hit an enemy before reaching the target location, it chases down a nearby enemy, prioritizing champions and gaining bonus movement speed based on its proximity to the target. PASSIVE: Elise's Spiderlings Spiderlings gain bonus attack speed. ACTIVE: Elise and her Spiderlings Spiderlings gain bonus attack speed for 3 seconds.</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>E : COCOON / RAPPEL = ACTIVE: Elise fires a web in the target direction, stunning the first enemy hit for a few seconds, during which they are also revealed. ACTIVE: Elise and her Spiderlings Spiderlings lift up into the air, vanishing and becoming unable to act for up to 2 seconds and granting sight of the area for the duration. RECAST: Elise and her Spiderlings Spiderlings instantly descend behind the target, or their current position if there is no target. If cast directly on an enemy, Elise and her Spiderlings Spiderlings automatically recast on the target after 1 second. Upon landing this way, Spider Queen's Spider Queen's bonuses are increased for 5 seconds.</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Q : NEUROTOXIN / VENOMOUS BITE = ACTIVE: Elise fires a toxin at the target enemy that deals magic damage, capped against monsters. ACTIVE: Elise pounces at the target enemy with her fangs and bites them, dealing magic damage, capped against monsters, and applying on-hit effects at 100% effectiveness.</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>PASSIVE: SPIDER QUEEN = INNATE - HUMAN FORM: Elise gains one dormant Spiderling whenever she hits an enemy with an ability, storing up to 2 / 3 / 4 / 5 (based on Elise Human Form's Rank) at a time. INNATE - SPIDER FORM: Elise's basic attacks deal 10 / 20 / 30 / 40 (based on Spider Form's Rank) (+ 20% AP) bonus magic damage and heal her for 4 / 6 / 8 / 10 (based on Spider Form's Rank) (+ 8% AP) on-hit.</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>R : DESPERATE POWER = PASSIVE: Ryze permanently gains cooldown reduction. ACTIVE: For 6 seconds, Ryze gains bonus spell vamp, 80 bonus movement speed, and his basic abilities deal half their damage to all nearby enemies around the primary target</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>E : SPELL FLUX = ACTIVE: Ryze hurls an orb of runic energy at the target enemy, dealing magic damage and and reducing their magic resistance for 5 seconds, stacking up to 3 times. After striking the target, the orb splits and bounces to Ryze and up to 6 nearby enemies around the primary target, dealing the same magic damage to each. The secondary orbs then bounce back to the primary target (deals half the initial damage)</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>PASSIVE: ARCANE MASTERY = Ryze gains an Arcane Mastery stack for 6 seconds every time he uses an ability, stacking up to 5 times. At 5 stacks, Ryze becomes supercharged for his next 5 ability casts or for 2.5 − 5 (based on Overload's Rank) seconds, shielding himself for 25 − 110 (based on level) (+ 8% maximum mana) and causing his supercharged ability casts to reduce each of his cooldowns by Overload's amount.</value>
+  </data>
+</root>

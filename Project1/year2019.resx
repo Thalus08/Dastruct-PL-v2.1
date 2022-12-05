@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label31.Text" xml:space="preserve">
+    <value>R : THE BOX = ACTIVE: Thresh erects a pentagon of spectral walls around him that each last for 5 seconds. A wall will break upon enemy champion contact, dealing magic damage and slowing them by 99% for 2 seconds. Enemies that break a wall cannot do so again for 1 second. Subsequent walls they break will deal no damage and slow for only 1 second.</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>W : DEADLY PLUMAGE = ACTIVE: Xayah enters a frenzy for 4 seconds, gaining bonus attack speed and empowering her basic attacks to strike a second time, dealing 20% damage. Whenever Xayah hits an enemy champion with the strike, she gains 30% bonus movement speed for 1.5 seconds. If Rakan is nearby upon cast, he also becomes empowered, and gains the bonus movement speed at the same time as Xayah.</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>R : FEATHERSTORM = ACTIVE: Xayah leaps into the air, becoming untargetable and ghosted for 1.5 seconds. After 1 second, she shoots 5 Feathers in a cone in the target direction that deal physical damage to enemies hit. Xayah is unable to basic attack or cast abilities during Featherstorm, but can still move.</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>E : BLADECALLER = ACTIVE: Xayah recalls all planted Feathers to shoot back to her, each dealing physical damage to enemies hit, increased by 0% − 75% (based on critical strike chance). Bladecaller deals 50% damage to minions. An enemy takes 100% − 10% (based on previous feathers hit) damage from a Feather. A target hit by at least three Feathers is rooted for 1.25 seconds. Enemies can be hit by an individual Feather only once per pass.</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>R : CANNON BARRAGE = ACTIVE: Gangplank shoots a flare into the air, signaling his ship off-shore to fire upon the target location for 8 seconds, calling down 12 waves of cannonballs in clusters of 3 every 2 seconds, and granting sight of the area for the duration. Each wave deals magic damage to all enemies within the area and slows them by 30% for 0.5 seconds. DEATH'S DAUGHTER: A large cannonball lands in the center of the barrage after the first cluster of waves occur, dealing a cluster's worth of true damage to enemies within the impact and slowing them by 60% for 1.5 seconds. FIRE AT WILL: Cannon Barrage fires「 6 additional waves 」 over its duration; 18 waves of cannonballs are called down in clusters of 3 every 1.33 seconds. RAISE MORALE: Cannon Barrage grants Gangplank and all allies within the area 30% bonus movement speed, lingering for 2 seconds.</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>E : POWDER KEG = ACTIVE: Gangplank consumes a charge to place a powder keg at the target location that lasts for 25 seconds and will connect to other kegs with overlapping connection radius through a trail of black powder. The keg starts with 3 health and loses 1 every 2 / 1 / 0.5 (based on level) seconds until it is left with 1 health. Gangplank periodically stocks a Powder Keg charge, up to a maximum amount. Kegs can be basic attacked by enemies or Gangplank (including his Parrrley), dealing 1 damage to it. When an enemy destroys it, it is safely defused. When Gangplank destroys it, it explodes and also triggers a chain reaction that explodes other nearby connected kegs with a 0.33 seconds-delay between explosions. The explosions also grant sight of their radiuses for 2 seconds. Enemies caught in an explosion are slowed for 2 seconds, and are dealt the triggering attack's damage, dealing bonus physical damage against champions. Each enemy can only be hit once per chain and the damage dealt ignores 40% of the target's armor.</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Q : PARRRLEY = ACTIVE: Gangplank fires a shot at the target enemy that deals physical damage and applies on-hit and on-attack effects at 100% effectiveness as a ranged attack. Parrrley can critically strike for (175% + 35% 35%) total damage. If Parrrley kills the target, Gangplank plunders Gold and Silver Serpents. Each enemy killed by a Powder Keg explosion that was originally set off by Parrrley also counts for the plunder.</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>PASSIVE: CLEAN CUTS = INNATE: Xayah's ability casts generate 3 stacks of Clean Cuts, lasting for 8 seconds, refreshing on subsequent casts, and stacking up to 5 times. Xayah's basic attacks are empowered to each consume a stack on-attack to instead shoot a Feather that deals the attack's damage to the primary target and 30 / 40 / 50% (based on level) AD physical damage to other enemies hit, with the secondary damage also critically striking if the main attack does. INNATE - LOVER'S LEAP: If either Xayah or Rakan is channeling Recall, the other may move nearby and channel their own to join alongside them. Both reach base at the time of which the initiator's Recall completes.</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>E : FLAY = PASSIVE: Thresh's basic attacks are empowered to deal bonus magic damage, with the AD ratio increasing over 10 seconds without basic attacking enemies. ACTIVE: Thresh sweeps his chain across the ground in a broad line and a radius around him, starting behind him and towards the target direction. Enemies hit are dealt magic damage and knocked 200 units in the target direction, and then are slowed for 1 second.</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>W : DARK PASSAGE = ACTIVE: Thresh throws his lantern to the target location over 0.5 seconds, lasting for 6 seconds while he remains nearby and granting sight of its surroundings. If Thresh moves too far away from the lantern, it returns back to him immediately. Thresh and the first allied champion to come near the lantern are granted a shield for 4 seconds. An ally can select the lantern while in proximity of it, dashing to Thresh and gaining the shield. An ally cannot select the lantern while immobilized, grounded, or silenced. The lantern will not expire from Thresh moving too far away if he is dashing with Deathly Leap.</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>Q : DEATH SENTENCE = ACTIVE: Thresh throws out his scythe in the target direction, becoming unable to move or attack while it is in flight. The scythe catches the first enemy hit to deal magic damage and stun and reveal them for 1.5 seconds, as well as reduce Death Sentence's current cooldown by 3 seconds. Thresh will also mark the target Shackled for 1.5 seconds, during which he is unable to declare basic attacks, and is slowed by 20% for 1 second. While the target is stunned, Thresh tugs twice over 0.8 seconds, pulling the target a short distance with each tug. After 0.5 seconds of hitting an enemy or instantly after hitting a minion or monster, Thresh can recast the ability while the target is Shackled, which will cause him to stop tugging. RECAST - DEATHLY LEAP: Thresh dashes to the Shackled enemy, becoming able to attack again upon arrival. He can cast Dark Passage and Flay during the dash.</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>PASSIVE: DAMNATION = INNATE: Enemy champions, large minions and large monsters that die near Thresh drop a Soul for 8 seconds. Epic monsters drop 2 Souls while lesser minions and monsters have a 33.3% chance to drop a Soul. Thresh automatically collects Souls near him or a placed Dark Passage Dark Passage. SOUL: For each stack, Thresh gains 1 ability power and 1 bonus armor.</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>PASSIVE: TRIAL BY FIRE = INNATE: Periodically, Gangplank empowers his next basic attack to set the target on fire, dealing them「 55 − 310 (based on level) (+ 100% bonus AD) bonus true damage over 2.5 seconds, increased by 0 − 200 (based on critical strike chance). 」Turrets are dealt 50% damage. If Gangplank successfully hits a target with Trial by Fire, he gains 15% − 30% (based on level) bonus movement speed for 2 seconds. Every time a Powder Keg explodes, the cooldown for Trial by Fire resets and Gangplank gains its bonus movement speed.</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>R : DRAGON'S RAGE = ACTIVE: Lee Sin roots the target enemy champion over the cast time, then roundhouse kicks them to deal physical damage and knock them back up to 800 units over 0.8 seconds, rendering them airborne for 1 second. Enemies that collide with the displaced enemy while it is airborne take the same damage plus bonus physical damage and are Airborne icon.png knocked up for 1 second.</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>W : SAFEGUARD / IRON WILL = ACTIVE: Lee Sin dashes to the target allied unit's location. If the ally is a champion upon arrival, both they and Lee Sin gain a shield for 2 seconds and Safeguard's cooldown is halved. Lee Sin can self-cast Safeguard to shield himself. After Safeguard is cast, Lee Sin can cast Iron Will Iron Will within the next 3 seconds. ACTIVE: Lee Sin gains life steal and spell vamp for 4 seconds.</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>E : TEMPEST / CRIPPLE = ACTIVE: Lee Sin smashes the ground beneath him, dealing magic damage to nearby enemies, marking them for 4 seconds and, if they are not invisible when struck, revealing them for the same duration. If Tempest hits an enemy, Lee Sin can cast Cripple Cripple within the next 3 seconds after a 0.1-second delay. ACTIVE: Lee Sin sends a wave to nearby enemies marked by Tempest, which slows them for 4 seconds, decaying over the duration.</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Q : SONIC WAVE / RESONATING STRIKE = ACTIVE: Lee Sin fires a sonic blast in the target direction that deals physical damage to the first enemy hit and marks them for 3 seconds, during which they are revealed. While the target is marked, Lee Sin can cast Resonating Strike. ACTIVE: Lee Sin dashes to the nearby enemy marked by  Sonic Wave. Upon arrival, he consumes the mark and deals physical damage, increased by 0% − 100% (based on target's missing health). Iron Will and Cripple can be cast during the dash.</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>PASSIVE: FLURRY = INNATE: After casting an ability, Lee Sin's next 2 basic attacks within 3 seconds gain 40% bonus attack speed and restore energy. The first attack restores 20 / 30 / 40 (based on level) energy and the second attack restores「 half of that amount. 」</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>R : HERO'S ENTRANCE = ACTIVE: Galio prepares to make an entrance, channeling for 2.75 seconds and designating the target allied champion's location at the time of cast as his landing spot. Additionally, he resets Shield of Durand's Shield of Durand's passive shield for himself and grants it to all allied champions within the area for 5 seconds. After channeling for 1.25 seconds, he gains crowd control immunity for the remaining duration, becomes untargetable, and leaps into the air for 0.85 seconds before dashing to his destination over 0.25 seconds. Afterwards, he lands and becomes targetable again, dealing magic damage to all nearby enemies upon impact, knocking them back 100 units over 0.75 seconds, and remaining in place for 0.4 seconds.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>W : SHIELD OF DURAND = PASSIVE: Galio gains Anti-Magic Bulwark, and restores it after 12 seconds without taking damage. ANTI-MAGIC BULWARK: Gain a shield that absorbs magic damage. ACTIVE: Galio charges for up to 3 seconds, slowing himself by 15%, and gaining magic damage reduction and half of that amount as physical damage reduction; charging increases Shield of Durand's radius, damage and taunt duration over the first 2 seconds of the channel. RECAST: Galio refreshes the damage reduction for 2 seconds and deals magic damage to nearby enemy champions, increased by 0% − 200% (based on channel time), as well as taunts them for 0.5 − 1.5 (based on channel time) seconds, setting their movement speed to a static 60 for the same duration.</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>E : JUSTICE PUNCH = ACTIVE: During the cast time, Galio steps backwards in the opposite direction. He then dashes to the target location until he hits an enemy champion or terrain. Galio deals magic damage to enemies he passes through, reduced by 50% against non-champions, and knocks them up for 0.75 seconds as well as reveals them for the same duration.</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Q : WINDS OF WAR = ACTIVE: Galio creates two windblasts 250 units to either side of him that arc out before converging to the target location, dealing magic damage to all enemies they pass through. When the blasts meet, the gusts form a tornado that persists for 2 seconds, slowly moving forward and dealing magic damage every 0.5 seconds to enemies within the area. The damage based on the target's health ratio is capped at 150 against monsters.</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>PASSIVE: COLOSSAL SMASH = INNATE: Periodically, Galio's next basic attack is empowered to have an uncancellable windup and deal 15 − 200 (based on level) (+ 100% AD) (+ 50% AP) (+ 60% bonus magic resistance) modified magic damage to the target and all enemies near them. Colossal Smash can critically strike for (75% + 35% 35%) AD bonus magic damage to all targets hit.</value>
+  </data>
+</root>

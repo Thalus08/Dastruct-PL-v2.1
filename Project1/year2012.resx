@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label37.Text" xml:space="preserve">
+    <value>E : TIME WARP = ACTIVE: Zilean applies Time Warp to the target champion which lasts for 2.5 seconds. TIME WARP: If the target is an ally, they gain bonus movement speed. If the target is an enemy, they are slowed.</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>R : CHRONOSHIFT = ACTIVE: Zilean places a protective time rune on the target allied champion or himself for 5 seconds. If the target takes fatal damage within the duration, they enter resurrection for 3 seconds, becoming invulnerable, untargetable, and unable to act. Afterwards, they revive while being healed.</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>Q : TIME BOMB = ACTIVE: Zilean throws a ticking time bomb to the target location that grants sight of its surroundings. The bomb will attach itself to units that move within the epicenter, or those hit directly, revealing them. After 3 seconds, or when the attached unit dies, the bomb explodes to deal magic damage to nearby enemies. The bomb detonates immediately if another bomb attaches itself to the same unit, stunning nearby enemies for a duration.</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>PASSIVE: TIME IN A BOTTLE = INNATE: Zilean generates Experience 2 / 3.5 / 5 / 6 / 12 (based on level) experience (does not count towards his own level up) every 5 seconds. Time in a Bottle is on cooldown when the game starts and becomes disabled when Zilean reaches level 18. When he has enough to level up an allied champion, he can select them to channel for 1.2 seconds after a 0.5-second cast time. The channel is interrupted and disabled upon entering combat with enemy champions or taking damage from turrets, placing it on a 10-second cooldown. If Zilean interrupts it himself, it is placed on a 1-second cooldown, increased to 2 if he used a basic attack against a turret to do so. A successful channel levels up the target and rewards Zilean the same amount of experience for himself as well.</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>R : MAXIMUM DOSAGE = ACTIVE: Dr. Mundo injects himself with chemicals to become enhanced for 10 seconds, gaining increased base health, bonus attack damage, bonus movement speed, and bonus health regeneration.</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>E : BLUNT FORCE TRAUMA = PASSIVE: Dr. Mundo gains bonus attack damage, plus an additional amount based on his missing health, reaching maximum value at 70% missing health. ACTIVE: Dr. Mundo empowers his next basic attack within 4 seconds to have an uncancellable windup, gain 50 bonus range, and deal bonus physical damage, increased by 0% − 60% (based on missing health). If the target dies or is a small monster, they are sent flying away in a line, though not through terrain, causing all enemies they pass through to take 100% AD plus Blunt Force Trauma's minimum bonus damage. Blunt Force Trauma as well as the triggering attack's damage is increased to 140% against minions and 200% against non-epic monsters.</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>W : HEART ZAPPER = ACTIVE: Dr. Mundo charges up a defibrillator for up to 4 seconds, dealing magic damage every 0.25 seconds to nearby enemies and storing a portion of the post-mitigation damage he takes as grey health on his health bar. Heart Zapper can be recast after 1 second within the duration, and does so automatically after the duration. RECAST: Dr. Mundo detonates the defibrillator, dealing magic damage to nearby enemies. If this hits at least one enemy, he heals for 50% of grey health, increased to 100% if at least one enemy champion or large monster is hit.</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Q : INFECTED BONESAW = ACTIVE: Dr. Mundo throws an infected bonesaw in the target direction that deals magic damage to the first enemy hit and slows them by 40% for 2 seconds. Infected Bonesaw has a minimum damage threshold, and is capped against monsters. If the bonesaw hits an enemy, Dr. Mundo heals for 50% of the health cost, increased to 100% against champions or monsters.</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>PASSIVE: GOES WHERE HE PLEASES = INNATE: Dr. Mundo Health regenerates an additional「 0.8% − 1.6% (based on level) of his maximum health every 5 seconds. 」PASSIVE: Periodically, Dr. Mundo gains immunity to the immobilizing effects of the next hostile spell to affect him. Upon resisting one, Dr. Mundo pays a health cost equal to 7% of his current health and propels a canister that lands 525 units in the general direction of its source, remaining on the ground for 7 seconds. Dr. Mundo can move near the canister to consume it, healing himself for 8% of his maximum health and reducing the cooldown of Goes Where He Pleases by 15 seconds. Enemy champions can move near it to destroy it.</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>R : COMMAND: SHOCKWAVE = ACTIVE: Orianna commands The Ball to unleash a shockwave that deals magic damage to nearby enemies, stunning them for 0.75 seconds, and pulling them over 325 − 700 (based on proximity to ball) units, though not through terrain.</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>E : COMMAND: PROTECT = PASSIVE: The Ball grants bonus armor and bonus magic resistance to the unit it is attached to. ACTIVE: Orianna commands The Ball to fly to herself or the target allied champion and attach itself to the target, dealing magic damage to enemies it passes through and granting the target a for 2.5 seconds upon arrival.</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>W : COMMAND: DISSONANCE = ACTIVE: Orianna commands The Ball to emit an electric pulse that deals magic damage to nearby enemies. The pulse leaves behind an electric field that last 3 seconds, granting bonus movement speed to Orianna and her allies when they move within. Enemies that move within the field are slowed by the same amount, decaying over 2 seconds after leaving.</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Q : COMMAND: ATTACK = ACTIVE: Orianna commands The Ball to fly to the target location and remain there, dealing magic damage to enemies it passes through and nearby enemies upon arrival, reduced to 100% − 40% (based on enemies hit).</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>PASSIVE: RISING SPELL FORCE = INNATE: Ezreal generates a stack of Rising Spell Force for each enemy hit by his abilities, lasting for 6 seconds, refreshing on subsequent hits, and stacking up to 5 times. RISING SPELL FORCE: For each stack, Ezreal gains 10% bonus attack speed, up to a maximum of 50%.</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>R : COMMAND: SHOCKWAVE = ACTIVE: Orianna commands The Ball to unleash a shockwave that deals magic damage to nearby enemies, stunning them for 0.75 seconds, and pulling them over 325 − 700 (based on proximity to ball) units, though not through terrain.</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>E : COMMAND: PROTECT = PASSIVE: The Ball grants bonus armor and bonus magic resistance to the unit it is attached to. ACTIVE: Orianna commands The Ball to fly to herself or the target allied champion and attach itself to the target, dealing magic damage to enemies it passes through and granting the target a for 2.5 seconds upon arrival.</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>W : COMMAND: DISSONANCE = ACTIVE: Orianna commands The Ball to emit an electric pulse that deals magic damage to nearby enemies. The pulse leaves behind an electric field that last 3 seconds, granting bonus movement speed to Orianna and her allies when they move within. Enemies that move within the field are slowed by the same amount, decaying over 2 seconds after leaving.</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Q : COMMAND: ATTACK = ACTIVE: Orianna commands The Ball to fly to the target location and remain there, dealing magic damage to enemies it passes through and nearby enemies upon arrival, reduced to 100% − 40% (based on enemies hit).</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>PASSIVE: CLOCKWORK WINDUP = INNATE - THE BALL: Orianna is accompanied by The Ball, which she commands with her abilities. The Ball incurs a 0.15-second global cooldown on all of her abilities between casts. Additionally, The Ball attaches to Orianna if she is near it, and snaps back to her if she moves too far away from it, which incurs a 0.5-second global cooldown on all of her abilities. INNATE: Orianna's basic attacks generate a stack of Clockwork Winding for 4 seconds, refreshing on subsequent attacks and stacking up to 2 times. All stacks are lost when attacking a new enemy. CLOCKWORK WINDING: Orianna's basic attacks are empowered to deal 10 − 50 (based on level) (+ 15% AP) bonus magic damage on-hit, increased by「 20% 」per stack, up to 14 − 70 (based on level) (+ 21% AP) total bonus magic damage.</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>R : TRUESHOT BARRAGE = ACTIVE: Ezreal fires an energy projectile in the target direction, which briefly grants sight of its surroundings and deals magic damage to enemies hit. Minions and non-epic monsters take 50% reduced damage.</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>E : ARCANE SHIFT = ACTIVE: Ezreal blinks from his current location to up to 475 units towards the target location, then fires a homing bolt towards the nearest enemy that deals magic damage and reveals them for 1 second. Arcane Shift prioritizes firing at the nearest enemy marked by Essence Flux Essence Flux. The target does not have to be visible to be hit by this ability. Arcane Shift will cast at max range if cast beyond that.</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Q : MYSTIC SHOT = ACTIVE: Ezreal fires a bolt of energy in the target direction that deals physical damage to the first enemy hit and applies on-hit and on-attack effects at 100% effectiveness. If Mystic Shot successfully hits an enemy, the current cooldowns of Ezreal's abilities, including Mystic Shot's, are reduced by 1.5 seconds.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>PASSIVE: RISING SPELL FORCE = INNATE: Ezreal generates a stack of Rising Spell Force for each enemy hit by his abilities, lasting for 6 seconds, refreshing on subsequent hits, and stacking up to 5 times. RISING SPELL FORCE: For each stack, Ezreal gains 10% bonus attack speed, up to a maximum of 50%.</value>
+  </data>
+</root>

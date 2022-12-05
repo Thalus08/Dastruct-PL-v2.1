@@ -1,0 +1,1164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D71B1DB-7BCF-4B14-BE60-F117678617AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project1</RootNamespace>
+    <AssemblyName>Project1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Project1.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.Licensing.5.0.0\lib\net40\Bunifu.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.6.0.2\lib\net40\Bunifu.UI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.1.5.3.1.0.0\lib\net40\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Costura, Version=3.3.3.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
+      <HintPath>..\packages\Costura.Fody.3.3.3\lib\net40\Costura.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.Charts.WinForms, Version=1.0.4.0, Culture=neutral, PublicKeyToken=70866663edbc6595, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.Charts.WinForms.1.0.4\lib\net40\Guna.Charts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.5\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.Win32.Registry, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Registry.5.0.0\lib\net461\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Registry.AccessControl.6.0.0\lib\net461\Microsoft.Win32.Registry.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.SystemEvents, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.SystemEvents.6.0.0\lib\net461\Microsoft.Win32.SystemEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=100.0.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharpSigned.105.2.3\lib\net46\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.CodeDom, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.CodeDom.6.0.0\lib\net461\System.CodeDom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.6.0.0\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Odbc, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.Odbc.6.0.0\lib\net461\System.Data.Odbc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OleDb, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.OleDb.6.0.0\lib\net461\System.Data.OleDb.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.3\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Diagnostics.EventLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.EventLog.6.0.0\lib\net461\System.Diagnostics.EventLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.PerformanceCounter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.PerformanceCounter.6.0.0\lib\net461\System.Diagnostics.PerformanceCounter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.6.0.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.AccessControl, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.AccessControl.5.0.0\lib\net461\System.IO.FileSystem.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.6.0.0\lib\net461\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes.AccessControl, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipes.AccessControl.5.0.0\lib\net461\System.IO.Pipes.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Ports, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Ports.6.0.0\lib\net461\System.IO.Ports.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Context" />
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.6.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.1\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Cng, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Cng.5.0.0\lib\net47\System.Security.Cryptography.Cng.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Pkcs, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Pkcs.6.0.0\lib\net461\System.Security.Cryptography.Pkcs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.ProtectedData, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.ProtectedData.6.0.0\lib\net461\System.Security.Cryptography.ProtectedData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Xml, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Xml.6.0.0\lib\net461\System.Security.Cryptography.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.6.0.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Duplex, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Duplex.4.9.0\lib\net461\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Http.4.9.0\lib\net461\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.NetTcp.4.9.0\lib\net461\System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Primitives.4.9.0\lib\net461\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Security.4.9.0\lib\net461\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Syndication, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Syndication.6.0.0\lib\net461\System.ServiceModel.Syndication.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.ServiceProcess.ServiceController, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceProcess.ServiceController.6.0.0\lib\net461\System.ServiceProcess.ServiceController.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Text.Encoding.CodePages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encoding.CodePages.6.0.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.AccessControl.6.0.0\lib\net461\System.Threading.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.Services.Description, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Web.Services.Description.4.9.0\lib\net461\System.Web.Services.Description.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\User2011.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2011.Designer.cs">
+      <DependentUpon>User2011.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2012.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2012.Designer.cs">
+      <DependentUpon>User2012.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2013.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2013.Designer.cs">
+      <DependentUpon>User2013.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2014.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2014.Designer.cs">
+      <DependentUpon>User2014.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2015.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2015.Designer.cs">
+      <DependentUpon>User2015.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2016.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2016.Designer.cs">
+      <DependentUpon>User2016.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2017.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2017.Designer.cs">
+      <DependentUpon>User2017.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2018.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2018.Designer.cs">
+      <DependentUpon>User2018.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2019.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2019.Designer.cs">
+      <DependentUpon>User2019.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2020.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2020.Designer.cs">
+      <DependentUpon>User2020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2021.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2021.Designer.cs">
+      <DependentUpon>User2021.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\User2022.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\User2022.Designer.cs">
+      <DependentUpon>User2022.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EasterEgg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EasterEgg.Designer.cs">
+      <DependentUpon>EasterEgg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceEasterEgg.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceEasterEgg.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource2013.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource2013.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource2014.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource2014.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource2015.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource2015.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource2022.Designer.cs">
+      <DependentUpon>Resource2022.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resource2021.Designer.cs">
+      <DependentUpon>Resource2021.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resource2020.Designer.cs">
+      <DependentUpon>Resource2020.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resource2019.Designer.cs">
+      <DependentUpon>Resource2019.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resource2018.Designer.cs">
+      <DependentUpon>Resource2018.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resource2017.Designer.cs">
+      <DependentUpon>Resource2017.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resource2016.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource2016.resx</DependentUpon>
+    </Compile>
+    <Compile Include="year2011.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="year2011.Designer.cs">
+      <DependentUpon>year2011.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="year2012.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="year2012.Designer.cs">
+      <DependentUpon>year2012.cs</DependentUpon>
+    </Compile>
+    <Compile Include="year2013.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="year2013.Designer.cs">
+      <DependentUpon>year2013.cs</DependentUpon>
+    </Compile>
+    <Compile Include="year2014.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="year2014.Designer.cs">
+      <DependentUpon>year2014.cs</DependentUpon>
+    </Compile>
+    <Compile Include="year2015.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="year2015.Designer.cs">
+      <DependentUpon>year2015.cs</DependentUpon>
+    </Compile>
+    <Compile Include="year2016.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="year2016.Designer.cs">
+      <DependentUpon>year2016.cs</DependentUpon>
+    </Compile>
+    <Compile Include="year2017.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="year2017.Designer.cs">
+      <DependentUpon>year2017.cs</DependentUpon>
+    </Compile>
+    <Compile Include="year2018.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="year2018.Designer.cs">
+      <DependentUpon>year2018.cs</DependentUpon>
+    </Compile>
+    <Compile Include="year2019.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="year2019.Designer.cs">
+      <DependentUpon>year2019.cs</DependentUpon>
+    </Compile>
+    <Compile Include="year2020.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="year2020.Designer.cs">
+      <DependentUpon>year2020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="year2021.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="year2021.Designer.cs">
+      <DependentUpon>year2021.cs</DependentUpon>
+    </Compile>
+    <Compile Include="year2022.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="year2022.Designer.cs">
+      <DependentUpon>year2022.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Control\User2011.resx">
+      <DependentUpon>User2011.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2012.resx">
+      <DependentUpon>User2012.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2013.resx">
+      <DependentUpon>User2013.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2014.resx">
+      <DependentUpon>User2014.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2015.resx">
+      <DependentUpon>User2015.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2016.resx">
+      <DependentUpon>User2016.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2017.resx">
+      <DependentUpon>User2017.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2018.resx">
+      <DependentUpon>User2018.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2019.resx">
+      <DependentUpon>User2019.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2020.resx">
+      <DependentUpon>User2020.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2021.resx">
+      <DependentUpon>User2021.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\User2022.resx">
+      <DependentUpon>User2022.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EasterEgg.resx">
+      <DependentUpon>EasterEgg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceEasterEgg.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceEasterEgg.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource2013.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resource2013.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resource2015.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource2015.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource2014.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource2014.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource2022.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource2022.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource2021.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource2021.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource2020.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource2020.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource2019.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource2019.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource2018.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource2018.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource2017.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource2017.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource2016.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource2016.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="year2011.resx">
+      <DependentUpon>year2011.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="year2012.resx">
+      <DependentUpon>year2012.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="year2013.resx">
+      <DependentUpon>year2013.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="year2014.resx">
+      <DependentUpon>year2014.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="year2015.resx">
+      <DependentUpon>year2015.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="year2016.resx">
+      <DependentUpon>year2016.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="year2017.resx">
+      <DependentUpon>year2017.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="year2018.resx">
+      <DependentUpon>year2018.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="year2019.resx">
+      <DependentUpon>year2019.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="year2020.resx">
+      <DependentUpon>year2020.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="year2021.resx">
+      <DependentUpon>year2021.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="year2022.resx">
+      <DependentUpon>year2022.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2011\Ashe\ABILIITIES.docx" />
+    <None Include="Resources\2011\Brand\ABILITIES.docx" />
+    <None Include="Resources\2011\Karthus\ABILITIES.docx" />
+    <None Include="Resources\2011\Sona\ABILITIES.docx" />
+    <None Include="Resources\2011\Warwick\ABILITIES.docx" />
+    <None Include="Resources\2012\Dr. Mundo\ABILITIES.docx" />
+    <None Include="Resources\2012\Ezreal\ABILITIES.docx" />
+    <None Include="Resources\2012\Oriana\ABILITIES.docx" />
+    <None Include="Resources\2012\Shen\ABILITIES.docx" />
+    <None Include="Resources\2012\Zillean\ABILITIES.docx" />
+    <None Include="Resources\2013\Corki\Abilities.docx" />
+    <None Include="Resources\2013\Gragas\ABILITIES.docx" />
+    <None Include="Resources\2013\Jarvan IV\ABILITIES.docx" />
+    <None Include="Resources\2013\Jax\ABILITIES.docx" />
+    <None Include="Resources\2013\Zyra\ABILITIES.docx" />
+    <None Include="Resources\2014\Corki\Abilities.docx" />
+    <None Include="Resources\2014\Janna\ABILITIES.docx" />
+    <None Include="Resources\2014\Kassadin\ABILITIES.docx" />
+    <None Include="Resources\2014\Oriana\ABILITIES.docx" />
+    <None Include="Resources\2014\Rengar\ABILITIES.docx" />
+    <None Include="Resources\2015\Alistar\ABILITIES.docx" />
+    <None Include="Resources\2015\Elise\ABILITIES.docx" />
+    <None Include="Resources\2015\Gnar\ABILITIES.docx" />
+    <None Include="Resources\2015\Ryze\ABILITIES.docx" />
+    <None Include="Resources\2015\Sivir\ABILITIES.docx" />
+    <None Include="Resources\2016\Ashe\ABILITIES.docx" />
+    <None Include="Resources\2016\Braum\ABILITIES.docx" />
+    <None Include="Resources\2016\Kalbo\ABILITIES.docx" />
+    <None Include="Resources\2016\Trundle\ABILITIES.docx" />
+    <None Include="Resources\2016\Viktor\ABILITIES.docx" />
+    <None Include="Resources\2017\season 7\Cho_Gath\2017 Cho_Gath.doc" />
+    <None Include="Resources\2017\season 7\Lulu\2017 Lulu.docx" />
+    <None Include="Resources\2017\season 7\Malzahar\2017 MALZAHAR.docx" />
+    <None Include="Resources\2017\season 7\SEJUANI\2017 Sejuani.docx" />
+    <None Include="Resources\2017\season 7\Varus\2017 Varus.docx" />
+    <None Include="Resources\2018\season 8\Aatrox\2018 Aatrox.docx" />
+    <None Include="Resources\2018\season 8\Camille\2018 Camille.docx" />
+    <None Include="Resources\2018\season 8\Galio\2018 Galio.docx" />
+    <None Include="Resources\2018\season 8\Kai_Sa\2018 Kai_Sa.docx" />
+    <None Include="Resources\2018\season 8\Rakan\2018 Rakan.docx" />
+    <None Include="Resources\2019\season 9\Galio\2019 Galio.docx" />
+    <None Include="Resources\2019\season 9\Gangplank\2019 Gangplank.docx" />
+    <None Include="Resources\2019\season 9\Lee Sin\2019 Lee Sin.docx" />
+    <None Include="Resources\2019\season 9\Tresh\2019 Tresh.docx" />
+    <None Include="Resources\2019\season 9\Xayah\2019 Xayah.docx" />
+    <None Include="Resources\2020\season 10\Caitlyn\2020 Caitlyn.docx" />
+    <None Include="Resources\2020\season 10\Kindred\2020 Kindred.docx" />
+    <None Include="Resources\2020\season 10\Ornn\2020 Ornn.docx" />
+    <None Include="Resources\2020\season 10\Pantheon\2020 Pantheon.docx" />
+    <None Include="Resources\2020\season 10\Syndra\2020 Syndra.docx" />
+    <None Include="Resources\2021\season 11\Aphelios\2021 Aphelios.docx" />
+    <None Include="Resources\2021\season 11\Kennen\2021 Kennen.docx" />
+    <None Include="Resources\2021\season 11\Rakan\2021 Rakan.docx" />
+    <None Include="Resources\2021\season 11\Xin Zhao\2021 XinZhao.docx" />
+    <None Include="Resources\2021\season 11\Zoe\2021 Zoe.docx" />
+    <None Include="Resources\2022\season 12\Aatrox\2022 Aatrox.docx" />
+    <None Include="Resources\2022\season 12\Azir\2022 Azir.docx" />
+    <None Include="Resources\2022\season 12\Bard\2022 Bard.docx" />
+    <None Include="Resources\2022\season 12\Caitlyn\2022 Caitlyn.docx" />
+    <None Include="Resources\2022\season 12\Hecarim\2022 Hecarim.docx" />
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\2011\2011 LaMiaZeaLoT.PNG" />
+    <None Include="Resources\2011\2011 Mellisan.PNG" />
+    <None Include="Resources\2011\2011 Shushei.PNG" />
+    <None Include="Resources\2011\2011 xPeke.PNG" />
+    <None Include="Resources\2011\2011 Cyanide.PNG" />
+    <Content Include="Resources\2011\2011 pic.png" />
+    <Content Include="Resources\2011\2011.wav" />
+    <Content Include="Resources\2011\Ashe\2011 AsheE.PNG" />
+    <Content Include="Resources\2011\Ashe\2011 AsheQ.PNG" />
+    <Content Include="Resources\2011\Ashe\2011 AsheR.PNG" />
+    <Content Include="Resources\2011\Ashe\2011 AsheW.PNG" />
+    <Content Include="Resources\2011\Ashe\2011 Ashe_icon.PNG" />
+    <Content Include="Resources\2011\Ashe\2011 VarusPassive.PNG" />
+    <Content Include="Resources\2011\Brand\2011 BrandE.PNG" />
+    <Content Include="Resources\2011\Brand\2011 BrandPassive.PNG" />
+    <Content Include="Resources\2011\Brand\2011 BrandQ.PNG" />
+    <Content Include="Resources\2011\Brand\2011 BrandR.PNG" />
+    <Content Include="Resources\2011\Brand\2011 BrandW.PNG" />
+    <Content Include="Resources\2011\Brand\2011 Brand_icon.PNG" />
+    <Content Include="Resources\2011\Karthus\2011 KarthusE.PNG" />
+    <Content Include="Resources\2011\Karthus\2011 KarthusPassive.PNG" />
+    <Content Include="Resources\2011\Karthus\2011 KarthusQ.PNG" />
+    <Content Include="Resources\2011\Karthus\2011 KarthusR.PNG" />
+    <Content Include="Resources\2011\Karthus\2011 KarthusW.PNG" />
+    <Content Include="Resources\2011\Karthus\2011 Karthus_icon.PNG" />
+    <Content Include="Resources\2011\Sona\2011 SonaE.PNG" />
+    <Content Include="Resources\2011\Sona\2011 SonaPassive.PNG" />
+    <Content Include="Resources\2011\Sona\2011 SonaQ.PNG" />
+    <Content Include="Resources\2011\Sona\2011 SonaR.PNG" />
+    <Content Include="Resources\2011\Sona\2011 SonaW.PNG" />
+    <Content Include="Resources\2011\Sona\2011 Sona_icon.PNG" />
+    <Content Include="Resources\2011\Warwick\2011 WarwickE.PNG" />
+    <Content Include="Resources\2011\Warwick\2011 WarwickPassive.PNG" />
+    <Content Include="Resources\2011\Warwick\2011 WarwickQ.PNG" />
+    <Content Include="Resources\2011\Warwick\2011 WarwickR.PNG" />
+    <Content Include="Resources\2011\Warwick\2011 WarwickW.PNG" />
+    <Content Include="Resources\2011\Warwick\2011 Warwick_icon.PNG" />
+    <Content Include="Resources\2012\2012 BeBe.PNG" />
+    <Content Include="Resources\2012\2012 Lilballz.PNG" />
+    <Content Include="Resources\2012\2012 Mistake.PNG" />
+    <Content Include="Resources\2012\2012 pic.png" />
+    <Content Include="Resources\2012\2012 Stanley.PNG" />
+    <Content Include="Resources\2012\2012 Toyz.PNG" />
+    <Content Include="Resources\2012\2012.wav" />
+    <Content Include="Resources\2012\Dr. Mundo\2012 Dr. Mundo E.PNG" />
+    <Content Include="Resources\2012\Dr. Mundo\2012 Dr. Mundo ICON.PNG" />
+    <Content Include="Resources\2012\Dr. Mundo\2012 Dr. Mundo PASSIVE.PNG" />
+    <Content Include="Resources\2012\Dr. Mundo\2012 Dr. Mundo Q.PNG" />
+    <Content Include="Resources\2012\Dr. Mundo\2012 Dr. Mundo R.PNG" />
+    <Content Include="Resources\2012\Dr. Mundo\2012 Dr. Mundo W.PNG" />
+    <Content Include="Resources\2012\Ezreal\2012 Ezreal E.png" />
+    <Content Include="Resources\2012\Ezreal\2012 Ezreal ICON.PNG" />
+    <Content Include="Resources\2012\Ezreal\2012 Ezreal PASSIVE.png" />
+    <Content Include="Resources\2012\Ezreal\2012 Ezreal Q.png" />
+    <Content Include="Resources\2012\Ezreal\2012 Ezreal R.png" />
+    <Content Include="Resources\2012\Ezreal\2012 Ezreal W.png" />
+    <Content Include="Resources\2012\Oriana\2012 Oriana E.PNG" />
+    <Content Include="Resources\2012\Oriana\2012 Oriana ICON.PNG" />
+    <Content Include="Resources\2012\Oriana\2012 Oriana PASSIVE.PNG" />
+    <Content Include="Resources\2012\Oriana\2012 Oriana Q.PNG" />
+    <Content Include="Resources\2012\Oriana\2012 Oriana R.PNG" />
+    <Content Include="Resources\2012\Oriana\2012 Oriana W.PNG" />
+    <Content Include="Resources\2012\Shen\2012 Shen E.PNG" />
+    <Content Include="Resources\2012\Shen\2012 Shen ICON.PNG" />
+    <Content Include="Resources\2012\Shen\2012 Shen PASSIVE.PNG" />
+    <Content Include="Resources\2012\Shen\2012 Shen Q.PNG" />
+    <Content Include="Resources\2012\Shen\2012 Shen R.PNG" />
+    <Content Include="Resources\2012\Shen\2012 Shen W.PNG" />
+    <Content Include="Resources\2012\Zillean\2012 ZILEAN E.PNG" />
+    <Content Include="Resources\2012\Zillean\2012 ZILEAN ICON.PNG" />
+    <Content Include="Resources\2012\Zillean\2012 ZILEAN PASSIVE.PNG" />
+    <Content Include="Resources\2012\Zillean\2012 ZILEAN Q.PNG" />
+    <Content Include="Resources\2012\Zillean\2012 ZILEAN R.PNG" />
+    <Content Include="Resources\2012\Zillean\2012 ZILEAN W.PNG" />
+    <Content Include="Resources\2013\2013 bengi.PNG" />
+    <Content Include="Resources\2013\2013 Faker.PNG" />
+    <Content Include="Resources\2013\2013 Impact.PNG" />
+    <Content Include="Resources\2013\2013 pic.png" />
+    <Content Include="Resources\2013\2013 Piglet.PNG" />
+    <Content Include="Resources\2013\2013 PoohManDu.PNG" />
+    <Content Include="Resources\2013\2013.wav" />
+    <Content Include="Resources\2013\Corki\2013 Corki E.PNG" />
+    <Content Include="Resources\2013\Corki\2013 Corki Icon.PNG" />
+    <Content Include="Resources\2013\Corki\2013 Corki Passive.PNG" />
+    <Content Include="Resources\2013\Corki\2013 Corki Q.PNG" />
+    <Content Include="Resources\2013\Corki\2013 Corki R.PNG" />
+    <Content Include="Resources\2013\Corki\2013 Corki W.PNG" />
+    <Content Include="Resources\2013\Gragas\2011 Gragas_icon.PNG" />
+    <Content Include="Resources\2013\Gragas\2013 GragasE.PNG" />
+    <Content Include="Resources\2013\Gragas\2013 GragasPassive.PNG" />
+    <Content Include="Resources\2013\Gragas\2013 GragasQ.PNG" />
+    <Content Include="Resources\2013\Gragas\2013 GragasR.PNG" />
+    <Content Include="Resources\2013\Gragas\2013 GragasW.PNG" />
+    <Content Include="Resources\2013\Jarvan IV\2013 J4 E.PNG" />
+    <Content Include="Resources\2013\Jarvan IV\2013 J4 ICON.PNG" />
+    <Content Include="Resources\2013\Jarvan IV\2013 J4 PASSIVE.PNG" />
+    <Content Include="Resources\2013\Jarvan IV\2013 J4 Q.PNG" />
+    <Content Include="Resources\2013\Jarvan IV\2013 J4 R.PNG" />
+    <Content Include="Resources\2013\Jarvan IV\2013 J4 W.PNG" />
+    <Content Include="Resources\2013\Jax\2013 Jax E.PNG" />
+    <Content Include="Resources\2013\Jax\2013 Jax ICON.PNG" />
+    <Content Include="Resources\2013\Jax\2013 Jax PASSIVE.PNG" />
+    <Content Include="Resources\2013\Jax\2013 Jax Q.PNG" />
+    <Content Include="Resources\2013\Jax\2013 Jax R.PNG" />
+    <Content Include="Resources\2013\Jax\2013 Jax W.PNG" />
+    <Content Include="Resources\2013\Zyra\2013 Zyra E.PNG" />
+    <Content Include="Resources\2013\Zyra\2013 Zyra ICON.PNG" />
+    <Content Include="Resources\2013\Zyra\2013 Zyra PASSIVE.PNG" />
+    <Content Include="Resources\2013\Zyra\2013 Zyra Q.PNG" />
+    <Content Include="Resources\2013\Zyra\2013 Zyra R.PNG" />
+    <Content Include="Resources\2013\Zyra\2013 Zyra W.PNG" />
+    <Content Include="Resources\2014\2014 DanDy.PNG" />
+    <Content Include="Resources\2014\2014 imp.PNG" />
+    <Content Include="Resources\2014\2014 Looper.PNG" />
+    <Content Include="Resources\2014\2014 Mata.PNG" />
+    <Content Include="Resources\2014\2014 PawN.PNG" />
+    <Content Include="Resources\2014\2014 pic.png" />
+    <Content Include="Resources\2014\2014.wav" />
+    <Content Include="Resources\2014\Corki\2014 Corki E.PNG" />
+    <Content Include="Resources\2014\Corki\2014 Corki Icon.PNG" />
+    <Content Include="Resources\2014\Corki\2014 Corki Passive.PNG" />
+    <Content Include="Resources\2014\Corki\2014 Corki Q.PNG" />
+    <Content Include="Resources\2014\Corki\2014 Corki R.PNG" />
+    <Content Include="Resources\2014\Corki\2014 Corki W.PNG" />
+    <Content Include="Resources\2014\Janna\2014 Janna E.PNG" />
+    <Content Include="Resources\2014\Janna\2014 Janna ICON.PNG" />
+    <Content Include="Resources\2014\Janna\2014 Janna PASSIVE.PNG" />
+    <Content Include="Resources\2014\Janna\2014 Janna Q.PNG" />
+    <Content Include="Resources\2014\Janna\2014 Janna R.PNG" />
+    <Content Include="Resources\2014\Janna\2014 Janna W.PNG" />
+    <Content Include="Resources\2014\Kassadin\2014 Kassadin E.PNG" />
+    <Content Include="Resources\2014\Kassadin\2014 Kassadin ICON.PNG" />
+    <Content Include="Resources\2014\Kassadin\2014 Kassadin PASSIVE.PNG" />
+    <Content Include="Resources\2014\Kassadin\2014 Kassadin Q.PNG" />
+    <Content Include="Resources\2014\Kassadin\2014 Kassadin R.PNG" />
+    <Content Include="Resources\2014\Kassadin\2014 Kassadin W.PNG" />
+    <Content Include="Resources\2014\Oriana\2014 Oriana E.PNG" />
+    <Content Include="Resources\2014\Oriana\2014 Oriana ICON.PNG" />
+    <Content Include="Resources\2014\Oriana\2014 Oriana PASSIVE.PNG" />
+    <Content Include="Resources\2014\Oriana\2014 Oriana Q.PNG" />
+    <Content Include="Resources\2014\Oriana\2014 Oriana R.PNG" />
+    <Content Include="Resources\2014\Oriana\2014 Oriana W.PNG" />
+    <Content Include="Resources\2014\Rengar\2014 Rengar E.PNG" />
+    <Content Include="Resources\2014\Rengar\2014 Rengar ICON.PNG" />
+    <Content Include="Resources\2014\Rengar\2014 Rengar PASSIVE.PNG" />
+    <Content Include="Resources\2014\Rengar\2014 Rengar Q.PNG" />
+    <Content Include="Resources\2014\Rengar\2014 Rengar R.PNG" />
+    <Content Include="Resources\2014\Rengar\2014 Rengar W.PNG" />
+    <Content Include="Resources\2015\2015 Bang.PNG" />
+    <Content Include="Resources\2015\2015 Bengi.PNG" />
+    <Content Include="Resources\2015\2015 Faker.PNG" />
+    <Content Include="Resources\2015\2015 MarRin.PNG" />
+    <Content Include="Resources\2015\2015 pic.png" />
+    <Content Include="Resources\2015\2015 Wolf.PNG" />
+    <Content Include="Resources\2015\2015.wav" />
+    <Content Include="Resources\2015\Alistar\2015 Alistar E.PNG" />
+    <Content Include="Resources\2015\Alistar\2015 Alistar ICON.PNG" />
+    <Content Include="Resources\2015\Alistar\2015 Alistar PASSIVE.PNG" />
+    <Content Include="Resources\2015\Alistar\2015 Alistar Q.PNG" />
+    <Content Include="Resources\2015\Alistar\2015 Alistar R.PNG" />
+    <Content Include="Resources\2015\Alistar\2015 Alistar W.PNG" />
+    <Content Include="Resources\2015\Elise\2015 Elise E.PNG" />
+    <Content Include="Resources\2015\Elise\2015 Elise ICON.PNG" />
+    <Content Include="Resources\2015\Elise\2015 Elise PASSIVE.PNG" />
+    <Content Include="Resources\2015\Elise\2015 Elise Q.PNG" />
+    <Content Include="Resources\2015\Elise\2015 Elise R.PNG" />
+    <Content Include="Resources\2015\Elise\2015 Elise W.PNG" />
+    <Content Include="Resources\2015\Gnar\2015 Gnar E.PNG" />
+    <Content Include="Resources\2015\Gnar\2015 Gnar ICON.PNG" />
+    <Content Include="Resources\2015\Gnar\2015 Gnar PASSIVE.PNG" />
+    <Content Include="Resources\2015\Gnar\2015 Gnar Q.PNG" />
+    <Content Include="Resources\2015\Gnar\2015 Gnar R.PNG" />
+    <Content Include="Resources\2015\Gnar\2015 Gnar W.PNG" />
+    <Content Include="Resources\2015\Ryze\2015 Ryze E.png" />
+    <Content Include="Resources\2015\Ryze\2015 Ryze ICON.PNG" />
+    <Content Include="Resources\2015\Ryze\2015 Ryze PASSIVE.png" />
+    <Content Include="Resources\2015\Ryze\2015 Ryze Q.png" />
+    <Content Include="Resources\2015\Ryze\2015 Ryze R.png" />
+    <Content Include="Resources\2015\Ryze\2015 Ryze W.png" />
+    <Content Include="Resources\2015\Ryze\2015 RyzeR.PNG" />
+    <Content Include="Resources\2015\Sivir\2015 Sivir E.PNG" />
+    <Content Include="Resources\2015\Sivir\2015 Sivir ICON.PNG" />
+    <Content Include="Resources\2015\Sivir\2015 Sivir PASSIVE.PNG" />
+    <Content Include="Resources\2015\Sivir\2015 Sivir Q.PNG" />
+    <Content Include="Resources\2015\Sivir\2015 Sivir R.PNG" />
+    <Content Include="Resources\2015\Sivir\2015 Sivir W.PNG" />
+    <Content Include="Resources\2016\2016 Bang.PNG" />
+    <Content Include="Resources\2016\2016 Bengi.PNG" />
+    <Content Include="Resources\2016\2016 Duke.PNG" />
+    <Content Include="Resources\2016\2016 Faker.PNG" />
+    <Content Include="Resources\2016\2016 pic.jpg" />
+    <Content Include="Resources\2016\2016 Wolf.PNG" />
+    <Content Include="Resources\2016\2016.wav" />
+    <Content Include="Resources\2016\Ashe\2016 Ashe E.PNG" />
+    <Content Include="Resources\2016\Ashe\2016 Ashe ICON.PNG" />
+    <Content Include="Resources\2016\Ashe\2016 Ashe PASSIVE.PNG" />
+    <Content Include="Resources\2016\Ashe\2016 Ashe Q.PNG" />
+    <Content Include="Resources\2016\Ashe\2016 Ashe R.PNG" />
+    <Content Include="Resources\2016\Ashe\2016 Ashe W.PNG" />
+    <Content Include="Resources\2016\Braum\2016 Braum E.PNG" />
+    <Content Include="Resources\2016\Braum\2016 Braum ICON.PNG" />
+    <Content Include="Resources\2016\Braum\2016 Braum PASSIVE.PNG" />
+    <Content Include="Resources\2016\Braum\2016 Braum Q.PNG" />
+    <Content Include="Resources\2016\Braum\2016 Braum R.PNG" />
+    <Content Include="Resources\2016\Braum\2016 Braum W.PNG" />
+    <Content Include="Resources\2016\Kalbo\2016 Lee Sin E.PNG" />
+    <Content Include="Resources\2016\Kalbo\2016 Lee Sin ICON.PNG" />
+    <Content Include="Resources\2016\Kalbo\2016 Lee Sin PASSIVE.PNG" />
+    <Content Include="Resources\2016\Kalbo\2016 Lee Sin Q.PNG" />
+    <Content Include="Resources\2016\Kalbo\2016 Lee Sin R.PNG" />
+    <Content Include="Resources\2016\Kalbo\2016 Lee Sin W.PNG" />
+    <Content Include="Resources\2016\Trundle\2016 Trundle E.PNG" />
+    <Content Include="Resources\2016\Trundle\2016 Trundle ICON.PNG" />
+    <Content Include="Resources\2016\Trundle\2016 Trundle PASSIVE.PNG" />
+    <Content Include="Resources\2016\Trundle\2016 Trundle Q.PNG" />
+    <Content Include="Resources\2016\Trundle\2016 Trundle R.PNG" />
+    <Content Include="Resources\2016\Trundle\2016 Trundle W.PNG" />
+    <Content Include="Resources\2016\Viktor\2016 Viktor E.PNG" />
+    <Content Include="Resources\2016\Viktor\2016 Viktor ICON.PNG" />
+    <Content Include="Resources\2016\Viktor\2016 Viktor PASSIVE.PNG" />
+    <Content Include="Resources\2016\Viktor\2016 Viktor Q.PNG" />
+    <Content Include="Resources\2016\Viktor\2016 Viktor R.PNG" />
+    <Content Include="Resources\2016\Viktor\2016 Viktor W.PNG" />
+    <Content Include="Resources\2017\2017 pic.PNG" />
+    <Content Include="Resources\2017\2017.wav" />
+    <Content Include="Resources\2017\Players\2017 Ambition.png" />
+    <Content Include="Resources\2017\Players\2017 CoreJJ.png" />
+    <Content Include="Resources\2017\Players\2017 Crown.jpg" />
+    <Content Include="Resources\2017\Players\2017 Cuvee.png" />
+    <Content Include="Resources\2017\Players\2017 Ruler.png" />
+    <Content Include="Resources\2017\season 7\Cho_Gath\2017 ChogathE.png" />
+    <Content Include="Resources\2017\season 7\Cho_Gath\2017 ChogathQ.png" />
+    <Content Include="Resources\2017\season 7\Cho_Gath\2017 ChogathR.png" />
+    <Content Include="Resources\2017\season 7\Cho_Gath\2017 ChogathW.png" />
+    <Content Include="Resources\2017\season 7\Cho_Gath\2017 Chogath_icon.png" />
+    <Content Include="Resources\2017\season 7\Cho_Gath\2017 Chogath_passive.png" />
+    <Content Include="Resources\2017\season 7\Lulu\2017 LuluE.png" />
+    <Content Include="Resources\2017\season 7\Lulu\2017 LuluPassive.png" />
+    <Content Include="Resources\2017\season 7\Lulu\2017 LuluQ.png" />
+    <Content Include="Resources\2017\season 7\Lulu\2017 LuluR.png" />
+    <Content Include="Resources\2017\season 7\Lulu\2017 LuluW.png" />
+    <Content Include="Resources\2017\season 7\Lulu\2017 Lulu_icon.png" />
+    <Content Include="Resources\2017\season 7\Malzahar\2017 MalzaharE.png" />
+    <Content Include="Resources\2017\season 7\Malzahar\2017 MalzaharQ.png" />
+    <Content Include="Resources\2017\season 7\Malzahar\2017 MalzaharR.png" />
+    <Content Include="Resources\2017\season 7\Malzahar\2017 MalzaharW.png" />
+    <Content Include="Resources\2017\season 7\Malzahar\2017 Malzahar_icon.png" />
+    <Content Include="Resources\2017\season 7\Malzahar\2017 Malzahar_Passive.png" />
+    <Content Include="Resources\2017\season 7\SEJUANI\2017 SejuaniE.png" />
+    <Content Include="Resources\2017\season 7\SEJUANI\2017 SejuaniQ.png" />
+    <Content Include="Resources\2017\season 7\SEJUANI\2017 SejuaniR.png" />
+    <Content Include="Resources\2017\season 7\SEJUANI\2017 SejuaniW.png" />
+    <Content Include="Resources\2017\season 7\SEJUANI\2017 Sejuani_icon.png" />
+    <Content Include="Resources\2017\season 7\SEJUANI\2017 Sejuani_passive.png" />
+    <Content Include="Resources\2017\season 7\Varus\2017 VarusE.png" />
+    <Content Include="Resources\2017\season 7\Varus\2017 VarusPassive.png" />
+    <Content Include="Resources\2017\season 7\Varus\2017 VarusQ.png" />
+    <Content Include="Resources\2017\season 7\Varus\2017 VarusR.png" />
+    <Content Include="Resources\2017\season 7\Varus\2017 VarusW.png" />
+    <Content Include="Resources\2017\season 7\Varus\2017 Varus_icon.png" />
+    <Content Include="Resources\2018\2018 pic.jpg" />
+    <Content Include="Resources\2018\Players\2018 Baolan.png" />
+    <Content Include="Resources\2018\Players\2018 JackeyLovefgf.jpg" />
+    <Content Include="Resources\2018\Players\2018 Ning.png" />
+    <Content Include="Resources\2018\Players\2018 Rookie.png" />
+    <Content Include="Resources\2018\Players\2018 TheShy.png" />
+    <Content Include="Resources\2018\RISE 2018.wav" />
+    <Content Include="Resources\2018\season 8\Aatrox\2018 AatroxE.png" />
+    <Content Include="Resources\2018\season 8\Aatrox\2018 AatroxQ.png" />
+    <Content Include="Resources\2018\season 8\Aatrox\2018 AatroxR.png" />
+    <Content Include="Resources\2018\season 8\Aatrox\2018 AatroxW.png" />
+    <Content Include="Resources\2018\season 8\Aatrox\2018 Aatrox_icon.png" />
+    <Content Include="Resources\2018\season 8\Aatrox\2018 Aatrox_Passive.png" />
+    <Content Include="Resources\2018\season 8\Camille\2018 CamilleE.png" />
+    <Content Include="Resources\2018\season 8\Camille\2018 CamilleQ.png" />
+    <Content Include="Resources\2018\season 8\Camille\2018 CamilleR.png" />
+    <Content Include="Resources\2018\season 8\Camille\2018 CamilleW.png" />
+    <Content Include="Resources\2018\season 8\Camille\2018 Camille_icon.png" />
+    <Content Include="Resources\2018\season 8\Camille\2018 Camille_Passive.png" />
+    <Content Include="Resources\2018\season 8\Galio\2018 GalioE.png" />
+    <Content Include="Resources\2018\season 8\Galio\2018 GalioQ.png" />
+    <Content Include="Resources\2018\season 8\Galio\2018 GalioR.png" />
+    <Content Include="Resources\2018\season 8\Galio\2018 GalioW.png" />
+    <Content Include="Resources\2018\season 8\Galio\2018 Galio_icon.jpg" />
+    <Content Include="Resources\2018\season 8\Galio\2018 Galio_Passive.png" />
+    <Content Include="Resources\2018\season 8\Kai_Sa\2018 KaisaE.png" />
+    <Content Include="Resources\2018\season 8\Kai_Sa\2018 KaisaQ.png" />
+    <Content Include="Resources\2018\season 8\Kai_Sa\2018 KaisaR.png" />
+    <Content Include="Resources\2018\season 8\Kai_Sa\2018 KaisaW.png" />
+    <Content Include="Resources\2018\season 8\Kai_Sa\2018 Kaisa_icon.jpg" />
+    <Content Include="Resources\2018\season 8\Kai_Sa\2018 Kaisa_Passive.png" />
+    <Content Include="Resources\2018\season 8\Rakan\2018 RakanE.png" />
+    <Content Include="Resources\2018\season 8\Rakan\2018 RakanQ.png" />
+    <Content Include="Resources\2018\season 8\Rakan\2018 RakanR.png" />
+    <Content Include="Resources\2018\season 8\Rakan\2018 RakanW.png" />
+    <Content Include="Resources\2018\season 8\Rakan\2018 Rakan_icon.jpg" />
+    <Content Include="Resources\2018\season 8\Rakan\2018 Rakan_Passive.png" />
+    <Content Include="Resources\2019\2019 pic.png" />
+    <Content Include="Resources\2019\Phoenix 2019.wav" />
+    <Content Include="Resources\2019\Players\2019 Crisp.png" />
+    <Content Include="Resources\2019\Players\2019 Doinb.png" />
+    <Content Include="Resources\2019\Players\2019 Gimgoon.png" />
+    <Content Include="Resources\2019\Players\2019 Lwx.png" />
+    <Content Include="Resources\2019\Players\2019 Tian.png" />
+    <Content Include="Resources\2019\season 9\Galio\2019 GalioE.png" />
+    <Content Include="Resources\2019\season 9\Galio\2019 GalioQ.png" />
+    <Content Include="Resources\2019\season 9\Galio\2019 GalioR.png" />
+    <Content Include="Resources\2019\season 9\Galio\2019 GalioW.png" />
+    <Content Include="Resources\2019\season 9\Galio\2019 Galio_icon.jpg" />
+    <Content Include="Resources\2019\season 9\Galio\2019 Galio_Passive.png" />
+    <Content Include="Resources\2019\season 9\Gangplank\2019 GangplankE.png" />
+    <Content Include="Resources\2019\season 9\Gangplank\2019 GangplankQ.png" />
+    <Content Include="Resources\2019\season 9\Gangplank\2019 GangplankR.png" />
+    <Content Include="Resources\2019\season 9\Gangplank\2019 GangplankW.png" />
+    <Content Include="Resources\2019\season 9\Gangplank\2019 Gangplank_icon.jpg" />
+    <Content Include="Resources\2019\season 9\Gangplank\2019 Gangplank_Passive.png" />
+    <Content Include="Resources\2019\season 9\Lee Sin\2019 Lee Sin ICON.PNG" />
+    <Content Include="Resources\2019\season 9\Lee Sin\2019 LeeSinE.png" />
+    <Content Include="Resources\2019\season 9\Lee Sin\2019 LeeSinQ.png" />
+    <Content Include="Resources\2019\season 9\Lee Sin\2019 LeeSinR.png" />
+    <Content Include="Resources\2019\season 9\Lee Sin\2019 LeeSinW.png" />
+    <Content Include="Resources\2019\season 9\Lee Sin\2019 LeeSin_Passive.png" />
+    <Content Include="Resources\2019\season 9\Tresh\2019 ThreshE.png" />
+    <Content Include="Resources\2019\season 9\Tresh\2019 ThreshQ.png" />
+    <Content Include="Resources\2019\season 9\Tresh\2019 ThreshR.png" />
+    <Content Include="Resources\2019\season 9\Tresh\2019 ThreshW.png" />
+    <Content Include="Resources\2019\season 9\Tresh\2019 Thresh_icon.jpg" />
+    <Content Include="Resources\2019\season 9\Tresh\2019 Thresh_Passive.png" />
+    <Content Include="Resources\2019\season 9\Xayah\2019 XayahE.png" />
+    <Content Include="Resources\2019\season 9\Xayah\2019 XayahQ.png" />
+    <Content Include="Resources\2019\season 9\Xayah\2019 XayahR.png" />
+    <Content Include="Resources\2019\season 9\Xayah\2019 XayahW.png" />
+    <Content Include="Resources\2019\season 9\Xayah\2019 Xayah_icon.jpg" />
+    <Content Include="Resources\2019\season 9\Xayah\2019 Xayah_Passive.png" />
+    <Content Include="Resources\2020\2020 pic.JPG" />
+    <Content Include="Resources\2020\2020.wav" />
+    <Content Include="Resources\2020\Players\2020 Beryl.png" />
+    <Content Include="Resources\2020\Players\2020 Canyon.png" />
+    <Content Include="Resources\2020\Players\2020 Ghost.png" />
+    <Content Include="Resources\2020\Players\2020 Nuguri.png" />
+    <Content Include="Resources\2020\Players\2020 ShowMaker.png" />
+    <Content Include="Resources\2020\season 10\Caitlyn\2020 CaitlynE.png" />
+    <Content Include="Resources\2020\season 10\Caitlyn\2020 CaitlynQ.png" />
+    <Content Include="Resources\2020\season 10\Caitlyn\2020 CaitlynR.png" />
+    <Content Include="Resources\2020\season 10\Caitlyn\2020 CaitlynW.png" />
+    <Content Include="Resources\2020\season 10\Caitlyn\2020 Caitlyn_icon.jpg" />
+    <Content Include="Resources\2020\season 10\Caitlyn\2020 Caitlyn_Passive.png" />
+    <Content Include="Resources\2020\season 10\Kindred\2020 KindredE.png" />
+    <Content Include="Resources\2020\season 10\Kindred\2020 KindredQ.png" />
+    <Content Include="Resources\2020\season 10\Kindred\2020 KindredR.png" />
+    <Content Include="Resources\2020\season 10\Kindred\2020 KindredW.png" />
+    <Content Include="Resources\2020\season 10\Kindred\2020 Kindred_icon.jpg" />
+    <Content Include="Resources\2020\season 10\Kindred\2020 Kindred_Passive.png" />
+    <Content Include="Resources\2020\season 10\Ornn\2020 OrnnE.png" />
+    <Content Include="Resources\2020\season 10\Ornn\2020 OrnnQ.png" />
+    <Content Include="Resources\2020\season 10\Ornn\2020 OrnnR.png" />
+    <Content Include="Resources\2020\season 10\Ornn\2020 OrnnW.png" />
+    <Content Include="Resources\2020\season 10\Ornn\2020 Ornn_icon.png" />
+    <Content Include="Resources\2020\season 10\Ornn\2020 Ornn_Passive.png" />
+    <Content Include="Resources\2020\season 10\Pantheon\2020 PantheonE.png" />
+    <Content Include="Resources\2020\season 10\Pantheon\2020 PantheonQ.png" />
+    <Content Include="Resources\2020\season 10\Pantheon\2020 PantheonR.png" />
+    <Content Include="Resources\2020\season 10\Pantheon\2020 PantheonW.png" />
+    <Content Include="Resources\2020\season 10\Pantheon\2020 Pantheon_icon.jpg" />
+    <Content Include="Resources\2020\season 10\Pantheon\2020 Pantheon_Passive.png" />
+    <Content Include="Resources\2020\season 10\Syndra\2020 SyndraE.png" />
+    <Content Include="Resources\2020\season 10\Syndra\2020 SyndraQ.png" />
+    <Content Include="Resources\2020\season 10\Syndra\2020 SyndraR.png" />
+    <Content Include="Resources\2020\season 10\Syndra\2020 SyndraW.png" />
+    <Content Include="Resources\2020\season 10\Syndra\2020 Syndra_icon.png" />
+    <Content Include="Resources\2020\season 10\Syndra\2020 Syndra_Passive.png" />
+    <Content Include="Resources\2021\2021 pic.png" />
+    <Content Include="Resources\2021\2021.wav" />
+    <Content Include="Resources\2021\Players\2021 Flandre.png" />
+    <Content Include="Resources\2021\Players\2021 Jiejie.png" />
+    <Content Include="Resources\2021\Players\2021 Meiko.png" />
+    <Content Include="Resources\2021\Players\2021 Scout.png" />
+    <Content Include="Resources\2021\Players\2021 Viper.png" />
+    <Content Include="Resources\2021\season 11\Aphelios\2021 ApheliosE.png" />
+    <Content Include="Resources\2021\season 11\Aphelios\2021 ApheliosQ.png" />
+    <Content Include="Resources\2021\season 11\Aphelios\2021 ApheliosR.png" />
+    <Content Include="Resources\2021\season 11\Aphelios\2021 ApheliosW.png" />
+    <Content Include="Resources\2021\season 11\Aphelios\2021 Aphelios_icon.jpg" />
+    <Content Include="Resources\2021\season 11\Aphelios\2021 Aphelios_Passive.png" />
+    <Content Include="Resources\2021\season 11\Kennen\2021 KennenE.png" />
+    <Content Include="Resources\2021\season 11\Kennen\2021 KennenQ.png" />
+    <Content Include="Resources\2021\season 11\Kennen\2021 KennenR.png" />
+    <Content Include="Resources\2021\season 11\Kennen\2021 KennenW.png" />
+    <Content Include="Resources\2021\season 11\Kennen\2021 Kennen_icon.png" />
+    <Content Include="Resources\2021\season 11\Kennen\2021 Kennen_Passive.png" />
+    <Content Include="Resources\2021\season 11\Rakan\2021 RakanE.png" />
+    <Content Include="Resources\2021\season 11\Rakan\2021 RakanQ.png" />
+    <Content Include="Resources\2021\season 11\Rakan\2021 RakanR.png" />
+    <Content Include="Resources\2021\season 11\Rakan\2021 RakanW.png" />
+    <Content Include="Resources\2021\season 11\Rakan\2021 Rakan_icon.jpg" />
+    <Content Include="Resources\2021\season 11\Rakan\2021 Rakan_Passive.png" />
+    <Content Include="Resources\2021\season 11\Xin Zhao\2021 XinZhaoE.png" />
+    <Content Include="Resources\2021\season 11\Xin Zhao\2021 XinZhaoQ.png" />
+    <Content Include="Resources\2021\season 11\Xin Zhao\2021 XinZhaoR.png" />
+    <Content Include="Resources\2021\season 11\Xin Zhao\2021 XinZhaoW.png" />
+    <Content Include="Resources\2021\season 11\Xin Zhao\2021 XinZhao_icon.png" />
+    <Content Include="Resources\2021\season 11\Xin Zhao\2021 XinZhao_Passive.png" />
+    <Content Include="Resources\2021\season 11\Zoe\2021 ZoeE.png" />
+    <Content Include="Resources\2021\season 11\Zoe\2021 ZoeQ.png" />
+    <Content Include="Resources\2021\season 11\Zoe\2021 ZoeR.png" />
+    <Content Include="Resources\2021\season 11\Zoe\2021 ZoeW.png" />
+    <Content Include="Resources\2021\season 11\Zoe\2021 Zoe_icon.jpg" />
+    <Content Include="Resources\2021\season 11\Zoe\2021 Zoe_Passive.png" />
+    <Content Include="Resources\2022\2022 pic.jpg" />
+    <Content Include="Resources\2022\Players\2022 Beryl.png" />
+    <Content Include="Resources\2022\Players\2022 Deft.png" />
+    <Content Include="Resources\2022\Players\2022 Kingen.png" />
+    <Content Include="Resources\2022\Players\2022 Pyosik.png" />
+    <Content Include="Resources\2022\Players\2022 Zeka.png" />
+    <Content Include="Resources\2022\season 12\Aatrox\2022 AatroxE.png" />
+    <Content Include="Resources\2022\season 12\Aatrox\2022 AatroxQ.png" />
+    <Content Include="Resources\2022\season 12\Aatrox\2022 AatroxR.png" />
+    <Content Include="Resources\2022\season 12\Aatrox\2022 AatroxW.png" />
+    <Content Include="Resources\2022\season 12\Aatrox\2022 Aatrox_icon.png" />
+    <Content Include="Resources\2022\season 12\Aatrox\2022 Aatrox_Passive.png" />
+    <Content Include="Resources\2022\season 12\Azir\2022 AzirE.png" />
+    <Content Include="Resources\2022\season 12\Azir\2022 AzirQ.png" />
+    <Content Include="Resources\2022\season 12\Azir\2022 AzirR.png" />
+    <Content Include="Resources\2022\season 12\Azir\2022 AzirW.png" />
+    <Content Include="Resources\2022\season 12\Azir\2022 Azir_icon.jpg" />
+    <Content Include="Resources\2022\season 12\Azir\2022 Azir_Passive.png" />
+    <Content Include="Resources\2022\season 12\Bard\2022 BardE.png" />
+    <Content Include="Resources\2022\season 12\Bard\2022 BardQ.png" />
+    <Content Include="Resources\2022\season 12\Bard\2022 BardR.png" />
+    <Content Include="Resources\2022\season 12\Bard\2022 BardW.png" />
+    <Content Include="Resources\2022\season 12\Bard\2022 Bard_icon.jpg" />
+    <Content Include="Resources\2022\season 12\Bard\2022 Bard_Passive.png" />
+    <Content Include="Resources\2022\season 12\Caitlyn\2022 CaitlynE.png" />
+    <Content Include="Resources\2022\season 12\Caitlyn\2022 CaitlynQ.png" />
+    <Content Include="Resources\2022\season 12\Caitlyn\2022 CaitlynR.png" />
+    <Content Include="Resources\2022\season 12\Caitlyn\2022 CaitlynW.png" />
+    <Content Include="Resources\2022\season 12\Caitlyn\2022 Caitlyn_icon.jpg" />
+    <Content Include="Resources\2022\season 12\Caitlyn\2022 Caitlyn_Passive.png" />
+    <Content Include="Resources\2022\season 12\Hecarim\2022 HecarimE.png" />
+    <Content Include="Resources\2022\season 12\Hecarim\2022 HecarimQ.png" />
+    <Content Include="Resources\2022\season 12\Hecarim\2022 HecarimR.png" />
+    <Content Include="Resources\2022\season 12\Hecarim\2022 HecarimW.png" />
+    <Content Include="Resources\2022\season 12\Hecarim\2022 Hecarim_icon.png" />
+    <Content Include="Resources\2022\season 12\Hecarim\2022 Hecarim_Passive.png" />
+    <Content Include="Resources\2022\STAR WALKIN 2022.wav" />
+    <Content Include="Resources\Devil May Cry 5 - Bury the Light %28Boss Theme Special Edition%29 %28128kbit_AAC%29.wav" />
+    <Content Include="Resources\God Qiqi.jpg" />
+    <Content Include="Resources\Kuya Javs.png" />
+    <Content Include="Resources\Kuya Mark.png" />
+    <Content Include="Resources\Kuya Ramwel.png" />
+    <Content Include="Resources\Kuya Roi.png" />
+    <Content Include="Resources\Nahida high.jpg" />
+    <Content Include="Resources\Nahida punch.jpg" />
+    <Content Include="Resources\Nahida Theme Music EXTENDED - Boundless Bliss %28tnbee mix%29 _ Genshin Impact %28152kbit_Opus%29.wav" />
+    <Content Include="Resources\Nahider.jpg" />
+    <Content Include="Resources\WOdfgdfgRLDS_Hero-Optimized_tet6rcp8js7lbk8ypf0d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Fody.4.0.2\build\Fody.targets" Condition="Exists('..\packages\Fody.4.0.2\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.4.0.2\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.4.0.2\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props'))" />
+  </Target>
+</Project>

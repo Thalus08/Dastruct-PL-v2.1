@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label17.Text" xml:space="preserve">
+    <value>R : LAMB'S RESPITE = ACTIVE: Lamb blesses the ground under herself for 4 seconds and enters a 0.264 seconds cast time. All units inside the zone gain a minimum health threshold of 10% of their maximum health, and will become invulnerable for the remaining duration </value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>W : WOLF'S FRENZY = PASSIVE: As Kindred move and attack, they build up to 100 stacks of Hunter's Vigor. At maximum stacks, Lamb's next basic attack heals her for 0% − 100% (based on Kindred's missing health) of 47 − 81 (based on level). The heal is not triggered if Kindred is at full health. ACTIVE: Wolf dashes to the target location, then claims the surrounding area as his territory for the next 8.5 seconds, separating from Lamb. He automatically attacks the closest nearby visible enemy within the area, prioritizing the last enemy Lamb has attacked, then enemy champions, then non-champions. Wolf's attacks deal magic damage and scale with 25% of Kindred's bonus attack speed. Against monsters, his attacks deal 150% damage and slow the target by 50% for 2 seconds</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>E : MOUNTING DREAD = ACTIVE: Lamb fires a shot at the target enemy that slows them by 50% for 1 second and applies a stack of Mounting Dread for 4 seconds. Her basic attacks each apply an additional stack, refreshing the duration and stacking up to 4 times. Her next basic attack against a target with 3 stacks directs Wolf to pounce on the target, consuming all stacks to deal additional physical damage, capped at 300 against monsters. The additional damage will critically strike against targets below 15% − 65% (based on critical strike chance) of their maximum health, increasing the missing health portion by (50% + 35% 35%), and cannot critically strike otherwise. The base damage of the pounce can independently critically strike.</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Q : DANCE OF ARROWS = ACTIVE: Lamb dashes toward the target location, gaining 35% (+ 5% per mark mark) bonus attack speed for 4 seconds and firing an arrow at up to 3 nearby visible enemies that deals physical damage. Her current attack target within any proximity will be prioritized by one of the arrows. Dance of Arrows' total cooldown is reduced to an amount while Lamb is within the area of Wolf's Frenzy. Casting Wolf's Frenzy reduces Dance of Arrows' current cooldown to the same amount. Dance of Arrows resets Lamb's basic attack timer. Lamb can cast any of her abilities during the dash. Dance of Arrows will cast at max range if cast beyond that.</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>PASSIVE: MARK OF THE KINDRED = INNATE: Both Lamb and Wolf mark targets to hunt. Scoring a takedown against a hunted target collects a stack of Mark of the Kindred. MARK OF THE KINDRED: Lamb gains 75 − 250 (based on marks) bonus range on her basic attacks and Mounting Dread. INNATE - LAMB: Lamb is offered a selection of enemy champions to hunt if she has not been in combat with them in the last 6 seconds. Once selected, the mark is applied after an 8-second delay and thereafter it can be collected by Kindred. Lamb gains the ability to select a new target every 75 seconds. Targets successfully hunted cannot be marked again for 4 minutes. INNATE - WOLF: Starting at 3:15, Wolf periodically marks a random large monster within the enemy team's jungle for 180 seconds. The hunted camp is highlighted on the mini map to both teams. Once the hunted target is slain or the mark expires, Wolf will wait 45 seconds before selecting a new target. The type of monster that Wolf can mark changes based on Kindred's current Mark of the Kindred stacks: 0= Rift Scuttler | 1 – 3= Rift Scuttler | Crimson Raptor, Gromp | 4 – 7= Ancient Krug, Blue Sentinel, Greater Murk Wolf, or Red Brambleback | 8 + = Rift Herald or Baron Nashor, Dragon or Elder Dragon</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>R : GRAND STARFALL = ACTIVE: Pantheon channels for 2 seconds, then leaps high into the air, vanishing and becoming immune to crowd control until he reappears. While in the air, Pantheon channels again for 2.2 seconds and grants sight around the target location 0.5 seconds into the channel. After 0.8 seconds into the channel, Pantheon prepares for landing by hurling his spear to the target location over 0.2 seconds that deals 40 − 190 (based on Comet Spear's rank) (+ 115% bonus AD) physical damage to enemies near its landing point and slows them by 50% for 2 seconds. Over the remaining 1.2 seconds, Pantheon crashes down and creates a shockwave alongside himself that travels toward the target location, dealing magic damage to enemies hit, reduced by up to 50% for those hit at the edge of the area. Upon completion of the channel, Pantheon reappears at the target location and gains full stacks of Mortal Will.</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>PASSIVE: HEADSHOT = INNATE: Caitlyn's basic attacks generate a stack of Count on-attack, doubled when attacking from brush. At 6 stacks, or 5 while in brush, her next basic attack consumes all stacks to become a Headshot. HEADSHOT: Caitlyn's basic attack is empowered to have an uncancellable windup and deal (60 / 90 / 120% (based on level) + (131.25% + 26.25% 26.25%) critical strike chance) AD bonus physical damage, increased to (110 / 115 / 120% (based on level) + (131.25% + 26.25% 26.25%) critical strike chance) AD against non-champions. Enemies that step over a Yordle Snap Trap or are hit by 90 Caliber Net can grant an additional Headshot against them at 1300 range within 1.8 seconds, without consuming stacks. Each method grants only one Headshot at a time.</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Q : PILTOVER PEACEMAKER = ACTIVE: Caitlyn fires a piercing shot in the target direction that deals physical damage to the first enemy it passes through, after which it expands in width but deals only 50% damage to enemies it hits thereafter. Enemies revealed by Yordle Snap Trap always take full damage from Piltover Peacemaker.</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>W : YORDLE SNAP TRAP = ACTIVE: Caitlyn sets a visible trap at the target location that is untargetable and arms after 1 second, lasting for a duration. The trap grants sight of the area for 1 second after being placed. Caitlyn periodically stocks a Yordle Snap Trap charge, up to a maximum amount. Deploying traps beyond the maximum destroys the oldest one. The next enemy champion that springs the trap is rooted for 1.5 seconds, revealed for 3 seconds, takes additional damage from Headshot, and becomes immune to further Yordle Snap Traps for 3 seconds.</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Q : VOLCANIC RUPTURE = ACTIVE: Ornn sends a fissure in the target direction that deals physical damage to enemies hit and slows them by 40% for 2 seconds. The fissure stops at maximum range or 200 units behind the first enemy champion struck. After 1.125-seconds, a magma pillar then erupts to knock aside enemies, though not through terrain, and linger as impassible terrain for 4 seconds. The pillar will not expire while Ornn is charging.</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>W : BELLOWS BREATH = ACTIVE: Ornn marches in the target direction over 0.75 seconds, gaining displacement immunity, becoming unable to act, and reducing his movement speed by 35% for the duration. Over the march he belches fire over a cone in front of him, dealing magic damage every 0.15 seconds to enemies hit. The final gout of flame will apply Brittle for 3 seconds. Bellows Breath has a minimum damage threshold, which is also the damage dealt to minions. Monsters take modified damage as well.</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>R : CALL OF THE FORGE GOD = ACTIVE: Ornn sounds his horn, summoning a lava elemental at maximum range from the target direction that stampedes towards his casting position at increasing speed. The elemental deals magic damage to enemies it passes through and slows them for 2 seconds. Call of the Forge God can be recast after 1.25 seconds while the elemental is active. RECAST: Ornn dashes in the target direction, though not through terrain. If he collides with the elemental, he sends it stampeding in the same direction. The elemental deals the same damage to enemies it passes through and knocks them up and stuns them for 1 second, reduced to 0.5 seconds after the first enemy champion hit. Each pass applies Brittle to targets for 3 seconds and can affect enemies only once. The elemental briefly grants sight around its trajectory as it travels.</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>E : SEARING CHARGE = CTIVE: Ornn charges in the target direction, dealing physical damage to enemies he passes through and stopping upon colliding with terrain. If Ornn collides with terrain during the charge, he creates a shockwave that knocks up and stuns nearby enemies for 1.25 seconds and deals the same damage if they were not already hit by the charge. The shockwave destructs the pillar formed by Volcanic Rupture and partially destroys terrain created by enemy champions.</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>E : 90 CALIBER NET = ACTIVE: Caitlyn fires a net in the target direction and recoils 390 units in the opposite direction. The net deals magic damage to the first enemy hit and slows them by 50% for 1 second. Caitlyn will not dash backwards if she is immobilized or grounded during the cast time. She can cast any of her abilities during the dash.</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>R : ACE IN THE HOLE = ACTIVE: Caitlyn locks onto the target enemy champion and channels for 1 second, revealing them as well as revealing herself. Once Caitlyn completes the channel, she fires a homing bullet toward the target that deals physical damage to the first enemy champion it hits, increased by 0% − 25% (based on critical strike chance).</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>W : SHIELD VAULT = ACTIVE: Pantheon leaps to the front of the target enemy's location. If the target is within 800 units upon arrival, he deals physical damage and stuns them for 1 second. MORTAL WILL: Pantheon empowers his next basic attack within 4 seconds to have a cast time and strike the target 3 times over a brief period, dealing 40% − 55% (based on level) AD physical damage per hit, up to 120% − 165% (based on level) AD. Each hit is affected by critical strike modifiers and applies on-hit effects at 100% effectiveness. Empowered Shield Vault resets Pantheon's basic attack timer. Pantheon will attempt to basic attack the target at the end of the leap.</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>E : AEGIS ASSAULT = ACTIVE: Pantheon braces his shield in the target direction and channels for 1.5 seconds, during which he becomes invulnerable against non-turret damage dealt by enemies from the target direction. He also continually performs strikes in a cone in front of him, dealing 8.3% AD physical damage every 0.125 seconds to enemies hit, reduced by 50% against minions and up to 100% AD total physical damage. Aegis Assault can be recast after 0.3 seconds, and does so automatically after the duration. Aegis Assault's channel cannot be interrupted by crowd control. RECAST: Pantheon slams with his shield in a cone in front of him, dealing physical damage to enemies hit. MORTAL WILL: After recasting, Pantheon gains 60% bonus movement speed for 1.5 seconds.</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>PASSIVE: MORTAL WILL = INNATE: Pantheon generates a stack of Mortal Will whenever he lands a basic attack on-hit or casts an ability, stacking up to 5 times. At 5 stacks, Pantheon's next basic ability consumes the stacks to become empowered with an additional effect. Pantheon gains maximum stacks of Mortal Will upon starting the game, completing a Recall channel, and respawning.</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>Q : COMET SPEAR = ACTIVE: Pantheon charges while being slowed by 10% for up to 4 seconds to increase Comet Spear's range after 0.35 seconds of channeling. Comet Spear can be recast within the duration. RECAST: Pantheon hurls his spear in the target direction that deals physical damage to enemies hit, increased against enemies below 20% of their maximum health but reduced by 50% against enemies beyond the first. Total damage is increased to 105% against monsters and reduced to 70% against minions. Releasing the ability within 0.35 seconds causes Pantheon to instead thrust his spear in the target direction, dealing the same physical damage to enemies hit and refunding 60% of Comet Spear's cooldown. The thrust's damage is not reduced against enemies beyond the first. If the charge is interrupted or completes without reactivation, Comet Spear is cancelled and the ability is put on full cooldown but refunds half the mana cost. MORTAL WILL: Comet Spear gains 20 − 240 (based on level) (+ 115% bonus AD) bonus physical damage, affected by the previous damage reductions. Consumes the stacks upon recasting.</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>PASSIVE: LIVING FORGE = INNATE: Ornn increases his bonus armor, bonus magic resistance and bonus health by 10% from all sources, further increased by 4% each time he upgrades a Mythic item into a MASTERWORK item. INNATE - LIVING FORGE: Ornn can purchase non-consumable items from anywhere on the field by forging them himself, and is also presented a Forge Menu with his recommended items to select to be forged. Forging takes 4 seconds and the process is interrupted if Ornn takes damage from enemy champions or turrets, disabling Living Forge for a few seconds. Gold is only expended upon completing the forge. INNATE - MASTER CRAFTSMAN: When Ornn reaches level 13, the Mythic item he owns or purchases is upgraded for free. Additionally, for each level after 13 (levels 14, 15, 16 and 17, excluding 18), Ornn can upgrade one of an allied champion's Mythic item by selecting them within 600 range. Each MASTERWORK item has roughly 1000 Gold 1000-worth of additional stats. MASTERWORK items: ASSASSIN: Draktharr's Shadowcarver, Sandshrike's Claw, Syzygy. FIGHTER: Ceaseless Hunger, Deicide, Dreamshatter, Infinity Force. MAGE: Caesura, Eternal Winter, Eye of Luden, Icathia's Curse, Infinite Convergence, Liandry's Lament, Upgraded Aeropack, Vespertide. MARKSMAN: Bloodward, Typhoon, Wyrmfallen Sacrifice. SUPPORT: Equinox, Reliquary of the Golden Dawn, Seat of Command, Shurelya's Requiem, Starcaster. TANK: Frozen Fist, Leviathan, Primordial Dawn, The Unspoken Parasite. INNATE - TEMPER: Ornn's basic attacks against Brittle enemies knock them back a short distance. Ornn's and allies' immobilizing effects against enemies afflicted by Brittle will consume the debuff to deal bonus magic damage equal to 10% − 18% (based on Ornn's level) of the target's maximum health, capped at 250 against monsters, and last 30% longer (if applicable).</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>R : UNLEASHED POWER = ACTIVE: Syndra enters a 0.264 seconds cast time, creating 3 Dark Spheres and grabbing up to 4 nearby Dark Spheres that were last spawned. Afterwards, the collected Dark Spheres are hurled in a volley at the target enemy champion, each dealing magic damage upon hit. The Dark Spheres will then remain on the ground for 6 seconds. TRANSCENDENT BONUS: Collecting 100 Splinters of Wrath enhances Unleashed Power to Death from execute the target if they are below 15% of their maximum health.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>W : FORCE OF WILL = ACTIVE: Syndra grabs the nearest Dark Sphere, enemy minion or non-epic monster within 500 units from the target location, and holds the target for 5 seconds. If a Dark Sphere is grabbed, its duration is refreshed; if a minion or monster is grabbed, it is put in stasis. She prioritizes grabbing the nearest unit, then Dark Spheres. Force of Will can be recast while the target is being held. RECAST: Syndra throws the grabbed target towards the target location, granting sight of their surroundings as they fall and dealing magic damage to them and nearby enemies. All targets hit are slowed for 1.5 seconds. TRANSCENDENT BONUS: Collecting 60 Splinters of Wrath enhances Force of Will to deal 15% (+ 1.5% per 100 AP) bonus true damage.</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>E : SCATTER THE WEAK = ACTIVE: Syndra propels a wave of force in a cone in the target direction that deals magic damage to enemies hit and knocks them back for 400 units and up to 800 units away from Syndra based on proximity, though not through terrain. Dark Spheres Dark Spheres can be knocked back for 950 units and up to 1200 units away from Syndra based on proximity, knocking back enemies they hit over 70 units, though not through terrain. Targets hit are also stunned for 1.25 seconds, during which they are also revealed, and dealt Scatter the Weak's damage if they were not damaged by the initial cast. TRANSCENDENT BONUS: Collecting 80 Splinters of Wrath enhances Scatter the Weak to have an increased scatter angle and slow enemies hit by 70% for 1.25 seconds starting after the knock back ends or if the target was hit by a pushed Dark Sphere, after the stun has ended.</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Q : DARK SPHERE = ACTIVE: Syndra conjures a Dark Sphere at the target location that appears after a 0.6-second delay, dealing magic damage to nearby enemies. The Dark Sphere then remains on the ground for 6 seconds. TRANSCENDENT BONUS: Collecting 40 Splinters of Wrath causes Syndra to periodically stock a Dark Sphere charge, up to a maximum of 2.</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>PASSIVE: TRANSCENDENT = INNATE: Syndra collects Splinters of Wrath that enhance each of her abilities based on the number of them collected, stacking up to 120 times. She gains Splinters of Wrath from the following: Dealing two instances of ability damage to an enemy champion within 4 seconds grants 1 / 2 / 3 (based on level) Splinters. This cannot occur on the same target more than once every 8 seconds. Ranking up an ability with any skill points beyond level 1 grants 5 Splinters, up to 85. Killing a large minion grants 1 Splinter. Collecting a Splinter of Wrath from an enemy restores 20 − 215 (based on level) mana. Splinters of Wrath are brought to Syndra from enemies over 0.6 seconds. At 120 Splinters of Wrath, Syndra achieves Transcendence, increasing her ability power by 15%. Syndra can collect Splinters of Wrath from enemies even if she is at maximum stacks. These Splinters do not grant any stacks, but will still restore mana for Syndra.</value>
+  </data>
+</root>

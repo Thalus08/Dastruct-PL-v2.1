@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Untitled-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WOdfgdfgRLDS_Hero-Optimized_tet6rcp8js7lbk8ypf0d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WOdfgdfgRLDS_Hero-Optimized_tet6rcp8js7lbk8ypf0d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\2011.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_2011_Cyanide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\2011 Cyanide.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_LaMiaZeaLoT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\2011 LaMiaZeaLoT.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_Mellisan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\2011 Mellisan.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_Shushei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\2011 Shushei.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_xPeke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\2011 xPeke.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\2012.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_2011_AsheE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Ashe\2011 AsheE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_AsheQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Ashe\2011 AsheQ.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_AsheR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Ashe\2011 AsheR.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_AsheW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Ashe\2011 AsheW.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_Ashe_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Ashe\2011 Ashe_icon.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_BrandE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Brand\2011 BrandE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_BrandPassive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Brand\2011 BrandPassive.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_BrandQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Brand\2011 BrandQ.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_BrandR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Brand\2011 BrandR.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_BrandW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Brand\2011 BrandW.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_Brand_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Brand\2011 Brand_icon.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_KarthusE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Karthus\2011 KarthusE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_KarthusPassive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Karthus\2011 KarthusPassive.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_KarthusQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Karthus\2011 KarthusQ.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_KarthusR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Karthus\2011 KarthusR.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_KarthusW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Karthus\2011 KarthusW.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_Karthus_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Karthus\2011 Karthus_icon.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_SonaE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Sona\2011 SonaE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_SonaPassive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Sona\2011 SonaPassive.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_SonaQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Sona\2011 SonaQ.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_SonaR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Sona\2011 SonaR.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_SonaW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Sona\2011 SonaW.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_Sona_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Sona\2011 Sona_icon.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_VarusPassive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Ashe\2011 VarusPassive.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_WarwickE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Warwick\2011 WarwickE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_WarwickPassive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Warwick\2011 WarwickPassive.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_WarwickQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Warwick\2011 WarwickQ.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_WarwickR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Warwick\2011 WarwickR.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_WarwickW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Warwick\2011 WarwickW.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_Warwick_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\Warwick\2011 Warwick_icon.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2011_pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2011\2011 pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_BeBe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\2012 BeBe.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Dr__Mundo_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Dr. Mundo\2012 Dr. Mundo E.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Dr__Mundo_ICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Dr. Mundo\2012 Dr. Mundo ICON.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Dr__Mundo_PASSIVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Dr. Mundo\2012 Dr. Mundo PASSIVE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Dr__Mundo_Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Dr. Mundo\2012 Dr. Mundo Q.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Dr__Mundo_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Dr. Mundo\2012 Dr. Mundo R.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Dr__Mundo_W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Dr. Mundo\2012 Dr. Mundo W.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Ezreal_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Ezreal\2012 Ezreal E.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Ezreal_ICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Ezreal\2012 Ezreal ICON.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Ezreal_PASSIVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Ezreal\2012 Ezreal PASSIVE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Ezreal_Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Ezreal\2012 Ezreal Q.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Ezreal_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Ezreal\2012 Ezreal R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Ezreal_W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Ezreal\2012 Ezreal W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Lilballz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\2012 Lilballz.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Mistake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\2012 Mistake.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Oriana_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Oriana\2012 Oriana E.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Oriana_ICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Oriana\2012 Oriana ICON.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Oriana_PASSIVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Oriana\2012 Oriana PASSIVE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Oriana_Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Oriana\2012 Oriana Q.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Oriana_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Oriana\2012 Oriana R.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Oriana_W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Oriana\2012 Oriana W.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\2012 pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_pic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\2012 pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Shen_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Shen\2012 Shen E.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Shen_ICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Shen\2012 Shen ICON.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Shen_PASSIVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Shen\2012 Shen PASSIVE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Shen_Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Shen\2012 Shen Q.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Shen_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Shen\2012 Shen R.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Shen_W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Shen\2012 Shen W.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Stanley" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\2012 Stanley.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_Toyz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\2012 Toyz.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_ZILEAN_E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Zillean\2012 ZILEAN E.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_ZILEAN_ICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Zillean\2012 ZILEAN ICON.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_ZILEAN_PASSIVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Zillean\2012 ZILEAN PASSIVE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_ZILEAN_Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Zillean\2012 ZILEAN Q.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_ZILEAN_R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Zillean\2012 ZILEAN R.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2012_ZILEAN_W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012\Zillean\2012 ZILEAN W.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
